@@ -1,0 +1,33 @@
+.background-blue {
+  background-color: #0090ba;
+  height: auto;
+}
+
+.background-black {
+  background-size: cover;
+  background-color: black;
+  min-height: 350px;
+  max-height: 350px;
+  padding: 3%;
+}
+
+.background-black-signin {
+  background-color: black;
+}
+
+.padding-fix {
+  padding-top: 12%;
+  padding-bottom: 12%;
+}
+
+.h1-white {
+  color: white;
+}
+
+.fontsize-big {
+  font-size: 75px;
+}
+
+.fontsize-medium {
+  font-size: 20px;
+}
