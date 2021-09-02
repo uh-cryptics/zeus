@@ -1,0 +1,2248 @@
+[
+    {
+        "name": "Benzonatate Capsules",
+        "type": "Allergy & Cold Medicines",
+        "location": "Case 2",
+        "amount": 15,
+        "supply": [
+            19,
+            100
+        ],
+        "expiration": [
+            "10/16",
+            "3/17"
+        ],
+        "reserves_supply": 0,
+        "reserves_expiration": "03/17/2021"
+    },
+    {
+        "name": "Cetirizine Soln",
+        "type": "Allergy & Cold Medicines",
+        "location": "Case 2",
+        "amount": 1,
+        "supply": 2,
+        "expiration": [
+            "8/16",
+            "5/17"
+        ],
+        "reserves_supply": 0,
+        "reserves_expiration": "8/30/16"
+    },
+    {
+        "name": "Cold and Flu Syrup",
+        "type": "Allergy & Cold Medicines",
+        "location": "Case 2",
+        "amount": 1,
+        "supply": [
+            1.5,
+            "bottle"
+        ],
+        "expiration": "09/16/2021",
+        "reserves_supply": 0,
+        "reserves_expiration": "12/1/16"
+    },
+    {
+        "name": "Diphenhydramine 25 mg tabs",
+        "type": "Allergy & Cold Medicines",
+        "location": "Case 2",
+        "amount": 50,
+        "supply": 415,
+        "expiration": null,
+        "reserves_supply": 0,
+        "reserves_expiration": null
+    },
+    {
+        "name": "Diphenhydramine Soln",
+        "type": "Allergy & Cold Medicines",
+        "location": "Case 2",
+        "amount": 1,
+        "supply": 0,
+        "expiration": null,
+        "reserves_supply": 0,
+        "reserves_expiration": "10/15/2021"
+    },
+    {
+        "name": "Steroid Nasal Spray",
+        "type": "Allergy & Cold Medicines",
+        "location": "Case 1 ",
+        "amount": 1,
+        "supply": 2,
+        "expiration": [
+            "8/16",
+            "4/17"
+        ],
+        "reserves_supply": 1,
+        "reserves_expiration": "10/16/2021"
+    },
+    {
+        "name": "Cetirizine Hydrochloride 5mg tablets",
+        "type": "Allergy & Cold Medicines",
+        "location": "Case 2",
+        "amount": 30,
+        "supply": 36,
+        "expiration": "12/17/2021",
+        "reserves_supply": 2,
+        "reserves_expiration": [
+            "5/17",
+            "8/16"
+        ]
+    },
+    {
+        "name": "Cetirizine 10 mg tablets",
+        "type": "Allergy & Cold Medicines",
+        "location": "Case 2",
+        "amount": 30,
+        "supply": 343,
+        "expiration": "04/17/2021",
+        "reserves_supply": 200,
+        "reserves_expiration": "10/17/2021"
+    },
+    {
+        "name": "Meclizine 12.5 mg ",
+        "type": "Allergy & Cold Medicines",
+        "location": "Case 2",
+        "amount": 30,
+        "supply": 100,
+        "expiration": "07/17/2021",
+        "reserves_supply": 0,
+        "reserves_expiration": null
+    },
+    {
+        "name": "Meclizine 25 mg chew tabs",
+        "type": "Allergy & Cold Medicines",
+        "location": "Case 2",
+        "amount": 30,
+        "supply": 100,
+        "expiration": "05/16/2021",
+        "reserves_supply": 0,
+        "reserves_expiration": null
+    },
+    {
+        "name": "Montelukast 10mg ",
+        "type": "Allergy & Cold Medicines",
+        "location": "Case 2",
+        "amount": 30,
+        "supply": 90,
+        "expiration": "10/15/2021",
+        "reserves_supply": 0,
+        "reserves_expiration": null
+    },
+    {
+        "name": "Nasal Saline",
+        "type": "Allergy & Cold Medicines",
+        "location": [
+            "Case 1",
+            "Drawer 2"
+        ],
+        "amount": 1,
+        "supply": 1,
+        "expiration": "07/17/2021",
+        "reserves_supply": 2,
+        "reserves_expiration": "07/17/2021"
+    },
+    {
+        "name": "NetiPot",
+        "type": "Allergy & Cold Medicines",
+        "location": "Refrigerator Closet",
+        "amount": 1,
+        "supply": 1,
+        "expiration": null,
+        "reserves_supply": 0,
+        "reserves_expiration": null
+    },
+    {
+        "name": "Oxymetazoline (or Phenylephrine) Nasal Spray",
+        "type": "Allergy & Cold Medicines",
+        "location": "Case 1",
+        "amount": 1,
+        "supply": 2,
+        "expiration": [
+            "10/16",
+            "5/18"
+        ],
+        "reserves_supply": 3,
+        "reserves_expiration": [
+            "5/18",
+            "7/16"
+        ]
+    },
+    {
+        "name": "Pseudoephedrine 30 mg Tabs",
+        "type": "Allergy & Cold Medicines",
+        "location": "Case 2",
+        "amount": 30,
+        "supply": 0,
+        "expiration": null,
+        "reserves_supply": 0,
+        "reserves_expiration": null
+    },
+    {
+        "name": "Tussin DM Cough Syrup",
+        "type": "Allergy & Cold Medicines",
+        "location": "Case 2",
+        "amount": 1,
+        "supply": [
+            2,
+            "4oz",
+            "bottles"
+        ],
+        "expiration": "12/16/2021",
+        "reserves_supply": 2,
+        "reserves_expiration": "12/16/2021"
+    },
+    {
+        "name": "Guaifenesin 400 mg tabs",
+        "type": "Allergy & Cold Medicines",
+        "location": "Case 2",
+        "amount": 15,
+        "supply": 0,
+        "expiration": null,
+        "reserves_supply": 0,
+        "reserves_expiration": null
+    },
+    {
+        "name": "Guaifenesin syrup",
+        "type": "Allergy & Cold Medicines",
+        "location": "Case 2",
+        "amount": 1,
+        "supply": 1,
+        "expiration": "03/16/2021",
+        "reserves_supply": 1,
+        "reserves_expiration": "03/16/2021"
+    },
+    {
+        "name": "Delsym cough syrup (Dextromethorphan Polistirex)",
+        "type": "Allergy & Cold Medicines",
+        "location": "Case 2",
+        "amount": 0,
+        "supply": [
+            4,
+            "3oz",
+            "bottles"
+        ],
+        "expiration": [
+            "12/16",
+            "9/17"
+        ],
+        "reserves_supply": 1,
+        "reserves_expiration": "12/16/2021"
+    },
+    {
+        "name": "Cough Drops",
+        "type": "Allergy & Cold Medicines",
+        "location": "Case 6",
+        "amount": 30,
+        "supply": 150,
+        "expiration": [
+            "3/16",
+            "12/17",
+            "4/16"
+        ],
+        "reserves_supply": 152,
+        "reserves_expiration": "04/16/2021"
+    },
+    {
+        "name": "Patient digital themometer",
+        "type": "Allergy & Cold Medicines",
+        "location": "Case 3",
+        "amount": 1,
+        "supply": 0,
+        "expiration": null,
+        "reserves_supply": 0,
+        "reserves_expiration": null
+    },
+    {
+        "name": "Thermometer probe covers",
+        "type": "Allergy & Cold Medicines",
+        "location": "Case 3",
+        "amount": 1,
+        "supply": 1,
+        "expiration": null,
+        "reserves_supply": 0,
+        "reserves_expiration": null
+    },
+    {
+        "name": "Sore Throat Spray",
+        "type": "Allergy & Cold Medicines",
+        "location": "Case 6",
+        "amount": 1,
+        "supply": 0,
+        "expiration": null,
+        "reserves_supply": 0,
+        "reserves_expiration": null
+    },
+    {
+        "name": "Acetaminophen 160mg/5 ml Susp",
+        "type": "Analgesics/Antiinflammatory",
+        "location": "Case 4",
+        "amount": 2,
+        "supply": 2,
+        "expiration": "09/17/2021",
+        "reserves_supply": 5,
+        "reserves_expiration": [
+            "5/17",
+            "9/17 "
+        ]
+    },
+    {
+        "name": "Acetaminophen 500 mg Caps",
+        "type": "Analgesics/Antiinflammatory",
+        "location": "Case 4",
+        "amount": 60,
+        "supply": 60,
+        "expiration": "05/17/2021",
+        "reserves_supply": 1300,
+        "reserves_expiration": [
+            "5/17",
+            "9/18"
+        ]
+    },
+    {
+        "name": "Acetaminophen 80 mg chewable tabs",
+        "type": "Analgesics/Antiinflammatory",
+        "location": "Case 4",
+        "amount": 30,
+        "supply": 30,
+        "expiration": "04/18/2021",
+        "reserves_supply": 0,
+        "reserves_expiration": null
+    },
+    {
+        "name": "Acetaminophen Infant Drops",
+        "type": "Analgesics/Antiinflammatory",
+        "location": "Case 4",
+        "amount": 2,
+        "supply": 1,
+        "expiration": "05/16/2021",
+        "reserves_supply": 0,
+        "reserves_expiration": null
+    },
+    {
+        "name": "Allopurinol 100 mg tabs",
+        "type": "Analgesics/Antiinflammatory",
+        "location": "Case 4",
+        "amount": 30,
+        "supply": 100,
+        "expiration": "10/16/2021",
+        "reserves_supply": 0,
+        "reserves_expiration": null
+    },
+    {
+        "name": "Allopurinol 300 mg tabs",
+        "type": "Analgesics/Antiinflammatory",
+        "location": "Case 4",
+        "amount": 30,
+        "supply": 0,
+        "expiration": null,
+        "reserves_supply": 0,
+        "reserves_expiration": null
+    },
+    {
+        "name": "Aspirin 81 mg",
+        "type": "Analgesics/Antiinflammatory",
+        "location": "Case 4",
+        "amount": 30,
+        "supply": 300,
+        "expiration": "09/16/2021",
+        "reserves_supply": 0,
+        "reserves_expiration": null
+    },
+    {
+        "name": "Aspirin 325 mg",
+        "type": "Analgesics/Antiinflammatory",
+        "location": "Case 4",
+        "amount": 30,
+        "supply": 50,
+        "expiration": "05/17/2021",
+        "reserves_supply": 0,
+        "reserves_expiration": null
+    },
+    {
+        "name": "Cyclobenzaprine 10 mg",
+        "type": "Analgesics/Antiinflammatory",
+        "location": "Case 4",
+        "amount": 30,
+        "supply": 80,
+        "expiration": "03/17/2021",
+        "reserves_supply": 0,
+        "reserves_expiration": null
+    },
+    {
+        "name": "Gabapentin 300 mg ",
+        "type": "Analgesics/Antiinflammatory",
+        "location": "Case 4",
+        "amount": 30,
+        "supply": 112,
+        "expiration": [
+            "6/16",
+            "3/17"
+        ],
+        "reserves_supply": 0,
+        "reserves_expiration": null
+    },
+    {
+        "name": "Gabapentin 100 mg",
+        "type": "Analgesics/Antiinflammatory",
+        "location": "Case 4",
+        "amount": 30,
+        "supply": 100,
+        "expiration": "05/16/2021",
+        "reserves_supply": 0,
+        "reserves_expiration": null
+    },
+    {
+        "name": "Ibuprofen 200 mg tabs",
+        "type": "Analgesics/Antiinflammatory",
+        "location": "Case 4",
+        "amount": 50,
+        "supply": 50,
+        "expiration": "07/16/2021",
+        "reserves_supply": 500,
+        "reserves_expiration": "01/17/2021"
+    },
+    {
+        "name": "Ibuprofen 800 mg tabs",
+        "type": "Analgesics/Antiinflammatory",
+        "location": "Case 4",
+        "amount": 60,
+        "supply": 60,
+        "expiration": "04/17/2021",
+        "reserves_supply": 700,
+        "reserves_expiration": [
+            "4/17",
+            "9/17"
+        ]
+    },
+    {
+        "name": "Ibuprofen suspension 50 mg per 1.25 mL infant",
+        "type": "Analgesics/Antiinflammatory",
+        "location": "Case 4",
+        "amount": 1,
+        "supply": 1,
+        "expiration": "01/17/2021",
+        "reserves_supply": 1,
+        "reserves_expiration": "01/17/2021"
+    },
+    {
+        "name": "Ibuprofen Suspension 100 mg per 5 mL childrens",
+        "type": "Analgesics/Antiinflammatory",
+        "location": "Case 4",
+        "amount": 1,
+        "supply": 1,
+        "expiration": "10/16/2021",
+        "reserves_supply": 2,
+        "reserves_expiration": "12/16/2021"
+    },
+    {
+        "name": "Indomethacin 25 mg caps",
+        "type": "Analgesics/Antiinflammatory",
+        "location": "Case 4",
+        "amount": 30,
+        "supply": 0,
+        "expiration": null,
+        "reserves_supply": 0,
+        "reserves_expiration": null
+    },
+    {
+        "name": "Indomethacin 50 mg caps",
+        "type": "Analgesics/Antiinflammatory",
+        "location": "Case 4",
+        "amount": 30,
+        "supply": 0,
+        "expiration": null,
+        "reserves_supply": 0,
+        "reserves_expiration": null
+    },
+    {
+        "name": "Kenalog 40mg/ml Injectable",
+        "type": "Analgesics/Antiinflammatory",
+        "location": "Case 4",
+        "amount": [
+            1,
+            "vial"
+        ],
+        "supply": 1,
+        "expiration": "1/1/17",
+        "reserves_supply": 0,
+        "reserves_expiration": null
+    },
+    {
+        "name": "Lidocaine Oral Topical Solution",
+        "type": "Analgesics/Antiinflammatory",
+        "location": "Case 4",
+        "amount": [
+            1,
+            "bottle"
+        ],
+        "supply": 1,
+        "expiration": "01/18/2021",
+        "reserves_supply": 3,
+        "reserves_expiration": "01/18/2021"
+    },
+    {
+        "name": "Lidocaine with Epi, injectable",
+        "type": "Analgesics/Antiinflammatory",
+        "location": "Bottom Drawer",
+        "amount": [
+            1,
+            "bottle"
+        ],
+        "supply": 1,
+        "expiration": "10/16/2021",
+        "reserves_supply": 0,
+        "reserves_expiration": null
+    },
+    {
+        "name": "Lidocaine w/o Epi, injectable",
+        "type": "Analgesics/Antiinflammatory",
+        "location": "Bottom Drawer",
+        "amount": [
+            1,
+            "bottle"
+        ],
+        "supply": 2,
+        "expiration": "10/16/2021",
+        "reserves_supply": 0,
+        "reserves_expiration": null
+    },
+    {
+        "name": "Medrol Dose Pack (Methylprednisolone 4 mg)",
+        "type": "Analgesics/Antiinflammatory",
+        "location": "Case 4",
+        "amount": 1,
+        "supply": 1,
+        "expiration": "02/18/2021",
+        "reserves_supply": 0,
+        "reserves_expiration": null
+    },
+    {
+        "name": "Methylprednisolone Soln",
+        "type": "Analgesics/Antiinflammatory",
+        "location": "Case 4",
+        "amount": [
+            0.5,
+            "bottle"
+        ],
+        "supply": 1,
+        "expiration": "04/17/2021",
+        "reserves_supply": 0,
+        "reserves_expiration": null
+    },
+    {
+        "name": "Naproxen 500 mg tabs",
+        "type": "Analgesics/Antiinflammatory",
+        "location": "Case 4",
+        "amount": 30,
+        "supply": 30,
+        "expiration": "1/31/19",
+        "reserves_supply": 500,
+        "reserves_expiration": "08/19/2021"
+    },
+    {
+        "name": "Phenazopyridine Tabs",
+        "type": "Analgesics/Antiinflammatory",
+        "location": "Case 4",
+        "amount": 20,
+        "supply": 29,
+        "expiration": "8/20/16",
+        "reserves_supply": 0,
+        "reserves_expiration": null
+    },
+    {
+        "name": "Prednisone 20 mg tabs",
+        "type": "Analgesics/Antiinflammatory",
+        "location": "Case 4",
+        "amount": 20,
+        "supply": 70,
+        "expiration": "3/1/17",
+        "reserves_supply": 0,
+        "reserves_expiration": null
+    },
+    {
+        "name": "Tramadol 50 mg Tabs",
+        "type": "Analgesics/Antiinflammatory",
+        "location": "Case 4",
+        "amount": 50,
+        "supply": 500,
+        "expiration": "04/17/2021",
+        "reserves_supply": 0,
+        "reserves_expiration": null
+    },
+    {
+        "name": "Amlodipine 5 mg ",
+        "type": "Antihypertensives",
+        "location": "Case 7",
+        "amount": 30,
+        "supply": 32,
+        "expiration": "4/30/18",
+        "reserves_supply": 0,
+        "reserves_expiration": null
+    },
+    {
+        "name": "Amlodipine 10 mg",
+        "type": "Antihypertensives",
+        "location": "Case 7",
+        "amount": 30,
+        "supply": [
+            57,
+            46
+        ],
+        "expiration": [
+            "4/16",
+            "4/30/2018"
+        ],
+        "reserves_supply": 0,
+        "reserves_expiration": null
+    },
+    {
+        "name": "Amlodipine 5mg/ Atorvastatin 20 mg",
+        "type": "Antihypertensives",
+        "location": "Case 7",
+        "amount": 0,
+        "supply": 84,
+        "expiration": [
+            "8/16",
+            "8/17"
+        ],
+        "reserves_supply": 0,
+        "reserves_expiration": null
+    },
+    {
+        "name": "Chlorthalidone or Hydrochlorothiazide 25 mg tabs",
+        "type": "Antihypertensives",
+        "location": "Case 7",
+        "amount": 50,
+        "supply": [
+            85,
+            134
+        ],
+        "expiration": [
+            "6/16",
+            "9/16"
+        ],
+        "reserves_supply": 0,
+        "reserves_expiration": null
+    },
+    {
+        "name": "Furosemide 20 mg ",
+        "type": "Antihypertensives",
+        "location": "Case 7",
+        "amount": 30,
+        "supply": 86,
+        "expiration": "4/1/16",
+        "reserves_supply": 0,
+        "reserves_expiration": null
+    },
+    {
+        "name": "Lisinopril 10 mg tab",
+        "type": "Antihypertensives",
+        "location": "Case 7",
+        "amount": 30,
+        "supply": 0,
+        "expiration": null,
+        "reserves_supply": 0,
+        "reserves_expiration": null
+    },
+    {
+        "name": "Lisinopril 20 mg tab",
+        "type": "Antihypertensives",
+        "location": "Case 7",
+        "amount": 30,
+        "supply": 119,
+        "expiration": "4/30/16",
+        "reserves_supply": 0,
+        "reserves_expiration": "4/30/16"
+    },
+    {
+        "name": "Lisinopril 5 mg tab",
+        "type": "Antihypertensives",
+        "location": "Case 7",
+        "amount": 30,
+        "supply": 100,
+        "expiration": "04/17/2021",
+        "reserves_supply": 0,
+        "reserves_expiration": null
+    },
+    {
+        "name": "Losartan 25 mg",
+        "type": "Antihypertensives",
+        "location": "Case 7",
+        "amount": 30,
+        "supply": 0,
+        "expiration": null,
+        "reserves_supply": 0,
+        "reserves_expiration": null
+    },
+    {
+        "name": "Losartan potassium 50mg",
+        "type": "Antihypertensives",
+        "location": "Case 7",
+        "amount": 0,
+        "supply": 90,
+        "expiration": "02/17/2021",
+        "reserves_supply": 0,
+        "reserves_expiration": null
+    },
+    {
+        "name": "Metoprolol 25 mg",
+        "type": "Antihypertensives",
+        "location": "Case 7",
+        "amount": 30,
+        "supply": 100,
+        "expiration": "04/17/2021",
+        "reserves_supply": 0,
+        "reserves_expiration": null
+    },
+    {
+        "name": "Metoprolol 50 mg",
+        "type": "Antihypertensives",
+        "location": "Case 7",
+        "amount": 30,
+        "supply": 115,
+        "expiration": "4/30/16",
+        "reserves_supply": 0,
+        "reserves_expiration": null
+    },
+    {
+        "name": "Nebivolol 5 mg",
+        "type": "Antihypertensives",
+        "location": "Case 7",
+        "amount": 0,
+        "supply": [
+            84,
+            167
+        ],
+        "expiration": null,
+        "reserves_supply": 168,
+        "reserves_expiration": [
+            "8/16",
+            "1/17"
+        ]
+    },
+    {
+        "name": "Nebivolol 10 mg",
+        "type": "Antihypertensives",
+        "location": "Case 7",
+        "amount": 0,
+        "supply": 0,
+        "expiration": null,
+        "reserves_supply": 0,
+        "reserves_expiration": null
+    },
+    {
+        "name": "Lisinopril and Hydrochlorothiazide tabs 10mg/12.5mg",
+        "type": "Antihypertensives",
+        "location": "Case 7",
+        "amount": 0,
+        "supply": 100,
+        "expiration": "7/1/16",
+        "reserves_supply": 0,
+        "reserves_expiration": null
+    },
+    {
+        "name": "Lisinopril and Hydrochlorothiazide tabs 20mg/12.5mg",
+        "type": "Antihypertensives",
+        "location": "Case 7",
+        "amount": 0,
+        "supply": 40,
+        "expiration": "8/1/16",
+        "reserves_supply": 0,
+        "reserves_expiration": null
+    },
+    {
+        "name": "Azilsartan 80mg",
+        "type": "Antihypertensives",
+        "location": "Case 7",
+        "amount": 0,
+        "supply": [
+            36,
+            35
+        ],
+        "expiration": [
+            "4/1/2017",
+            "9/17"
+        ],
+        "reserves_supply": 0,
+        "reserves_expiration": null
+    },
+    {
+        "name": "Azilsartan/chlorthalidone 40mg/12.5mg",
+        "type": "Antihypertensives",
+        "location": "Case 7",
+        "amount": 0,
+        "supply": 67,
+        "expiration": "7/1/16",
+        "reserves_supply": 0,
+        "reserves_expiration": null
+    },
+    {
+        "name": "Azilsartan/chlorthalidone 40mg/25mg",
+        "type": "Antihypertensives",
+        "location": "Case 7",
+        "amount": 0,
+        "supply": 70,
+        "expiration": "7/1/16",
+        "reserves_supply": {
+            "quantity": 2,
+            "unit": "bottle"
+        },
+        "reserves_expiration": null
+    },
+    {
+        "name": "Amoxicillin 250 mg Chewables",
+        "type": "Antimicrobials",
+        "location": "Freezer",
+        "amount": 30,
+        "supply": 100,
+        "expiration": "09/17/2021",
+        "reserves_supply": 0,
+        "reserves_expiration": null
+    },
+    {
+        "name": "Amoxicillin 125 mg/5ml Susp",
+        "type": "Antimicrobials",
+        "location": "Freezer",
+        "amount": 1,
+        "supply": 1,
+        "expiration": "11/16/2021",
+        "reserves_supply": 0,
+        "reserves_expiration": null
+    },
+    {
+        "name": "Amoxicillin 250 mg/5ml Susp",
+        "type": "Antimicrobials",
+        "location": "Freezer",
+        "amount": 1,
+        "supply": 1,
+        "expiration": "04/18/2021",
+        "reserves_supply": 0,
+        "reserves_expiration": null
+    },
+    {
+        "name": "Amoxicillin 400 mg/5ml Susp",
+        "type": "Antimicrobials",
+        "location": "Freezer",
+        "amount": 1,
+        "supply": 1,
+        "expiration": "09/18/2021",
+        "reserves_supply": 0,
+        "reserves_expiration": null
+    },
+    {
+        "name": "Amoxicillin 500 mg Capsules",
+        "type": "Antimicrobials",
+        "location": "Freezer",
+        "amount": 30,
+        "supply": 100,
+        "expiration": "06/18/2021",
+        "reserves_supply": 0,
+        "reserves_expiration": null
+    },
+    {
+        "name": "Amoxicillin 875 mg Tab",
+        "type": "Antimicrobials",
+        "location": "Freezer",
+        "amount": 20,
+        "supply": 100,
+        "expiration": "12/16/2021",
+        "reserves_supply": 0,
+        "reserves_expiration": null
+    },
+    {
+        "name": "Amoxicillin/Clavulanate 875/125 Tabs",
+        "type": "Antimicrobials",
+        "location": "Freezer",
+        "amount": 20,
+        "supply": 30,
+        "expiration": "09/17/2021",
+        "reserves_supply": 0,
+        "reserves_expiration": null
+    },
+    {
+        "name": "Amox/Clavulanate 200/28.5/5 Susp",
+        "type": "Antimicrobials",
+        "location": "Freezer",
+        "amount": 1,
+        "supply": 1,
+        "expiration": "01/17/2021",
+        "reserves_supply": 0,
+        "reserves_expiration": null
+    },
+    {
+        "name": "Amox/Clavulanate 400/57/5 ml Susp",
+        "type": "Antimicrobials",
+        "location": "Freezer",
+        "amount": 1,
+        "supply": 2,
+        "expiration": [
+            "10/17",
+            "11/17"
+        ],
+        "reserves_supply": 0,
+        "reserves_expiration": null
+    },
+    {
+        "name": "Azithromycin 250 mg",
+        "type": "Antimicrobials",
+        "location": "Freezer",
+        "amount": 12,
+        "supply": 0,
+        "expiration": null,
+        "reserves_supply": 0,
+        "reserves_expiration": null
+    },
+    {
+        "name": "Azithromycin 200/5cc Solution",
+        "type": "Antimicrobials",
+        "location": "Freezer",
+        "amount": 1,
+        "supply": 1,
+        "expiration": "03/16/2021",
+        "reserves_supply": 0,
+        "reserves_expiration": null
+    },
+    {
+        "name": "Ceftriaxone 500 mg Injection",
+        "type": "Antimicrobials",
+        "location": "Freezer",
+        "amount": 2,
+        "supply": 10,
+        "expiration": "05/17/2021",
+        "reserves_supply": 0,
+        "reserves_expiration": null
+    },
+    {
+        "name": "Cephalexin 500 mg",
+        "type": "Antimicrobials",
+        "location": "Freezer",
+        "amount": 28,
+        "supply": 128,
+        "expiration": [
+            "7/16",
+            "9/17"
+        ],
+        "reserves_supply": 0,
+        "reserves_expiration": null
+    },
+    {
+        "name": "Ciprofloxacin 500 mg",
+        "type": "Antimicrobials",
+        "location": "Freezer",
+        "amount": 60,
+        "supply": 60,
+        "expiration": "02/19/2021",
+        "reserves_supply": 200,
+        "reserves_expiration": "06/19/2021"
+    },
+    {
+        "name": "Clindamycin 300 mg",
+        "type": "Antimicrobials",
+        "location": "Freezer",
+        "amount": 30,
+        "supply": 102,
+        "expiration": [
+            "5/17",
+            "4/18"
+        ],
+        "reserves_supply": 0,
+        "reserves_expiration": null
+    },
+    {
+        "name": "Fluconazole 150 mg",
+        "type": "Antimicrobials",
+        "location": "Freezer",
+        "amount": 3,
+        "supply": 3,
+        "expiration": "02/19/2021",
+        "reserves_supply": 0,
+        "reserves_expiration": null
+    },
+    {
+        "name": "Doxycycline/Minocycline 100 mg",
+        "type": "Antimicrobials",
+        "location": "Freezer",
+        "amount": 20,
+        "supply": 100,
+        "expiration": "10/18/2021",
+        "reserves_supply": 0,
+        "reserves_expiration": null
+    },
+    {
+        "name": "Isoniazid 300 mg tabs",
+        "type": "Antimicrobials",
+        "location": "Freezer",
+        "amount": 30,
+        "supply": 60,
+        "expiration": "03/16/2021",
+        "reserves_supply": 30,
+        "reserves_expiration": "03/16/2021"
+    },
+    {
+        "name": "Ketoconazole 200 mg",
+        "type": "Antimicrobials",
+        "location": "Freezer",
+        "amount": 30,
+        "supply": 100,
+        "expiration": "03/18/2021",
+        "reserves_supply": 0,
+        "reserves_expiration": null
+    },
+    {
+        "name": "Metronidazole 500 mg",
+        "type": "Antimicrobials",
+        "location": "Freezer",
+        "amount": 30,
+        "supply": 100,
+        "expiration": "12/16/2021",
+        "reserves_supply": 0,
+        "reserves_expiration": null
+    },
+    {
+        "name": "Penicillin VK 250mg/5ml Soln",
+        "type": "Antimicrobials",
+        "location": "Freezer",
+        "amount": 1,
+        "supply": 1,
+        "expiration": "08/17/2021",
+        "reserves_supply": 0,
+        "reserves_expiration": null
+    },
+    {
+        "name": "Penicillin VK 500 mg Tabs",
+        "type": "Antimicrobials",
+        "location": "Freezer",
+        "amount": 30,
+        "supply": 70,
+        "expiration": "02/17/2021",
+        "reserves_supply": 0,
+        "reserves_expiration": null
+    },
+    {
+        "name": "Terbinafine 250 mg Tabs",
+        "type": "Antimicrobials",
+        "location": "Freezer",
+        "amount": 30,
+        "supply": 30,
+        "expiration": "02/17/2021",
+        "reserves_supply": 0,
+        "reserves_expiration": null
+    },
+    {
+        "name": "Trimethoprim/Sulfamethoxazole 40/200 Susp",
+        "type": "Antimicrobials",
+        "location": "Freezer",
+        "amount": [
+            16,
+            "oz"
+        ],
+        "supply": 0,
+        "expiration": null,
+        "reserves_supply": 0,
+        "reserves_expiration": null
+    },
+    {
+        "name": "Trimethroprim/Sulfamethoxazole (DS) 160/800",
+        "type": "Antimicrobials",
+        "location": "Freezer",
+        "amount": 28,
+        "supply": 480,
+        "expiration": "09/17/2021",
+        "reserves_supply": 500,
+        "reserves_expiration": "09/17/2021"
+    },
+    {
+        "name": "Tamiflu 75 mg",
+        "type": "Antimicrobials",
+        "location": "Freezer",
+        "amount": 10,
+        "supply": 10,
+        "expiration": "04/20/2021",
+        "reserves_supply": 0,
+        "reserves_expiration": null
+    },
+    {
+        "name": "Valtrex 500 mg",
+        "type": "Antimicrobials",
+        "location": "Freezer",
+        "amount": 30,
+        "supply": 0,
+        "expiration": null,
+        "reserves_supply": 0,
+        "reserves_expiration": null
+    },
+    {
+        "name": "Lovastatin 20 mg",
+        "type": "Cardiac/Cholesterol",
+        "location": "Case 7",
+        "amount": 0,
+        "supply": 0,
+        "expiration": null,
+        "reserves_supply": 0,
+        "reserves_expiration": null
+    },
+    {
+        "name": "Simvastatin 10 mg",
+        "type": "Cardiac/Cholesterol",
+        "location": "Case 7",
+        "amount": 30,
+        "supply": 90,
+        "expiration": "9/30/16",
+        "reserves_supply": 0,
+        "reserves_expiration": null
+    },
+    {
+        "name": "Simvastatin 20 mg",
+        "type": "Cardiac/Cholesterol",
+        "location": "Case 7",
+        "amount": 30,
+        "supply": 90,
+        "expiration": "9/30/16",
+        "reserves_supply": 0,
+        "reserves_expiration": null
+    },
+    {
+        "name": "Simvastatin 40 mg",
+        "type": "Cardiac/Cholesterol",
+        "location": "Case 7",
+        "amount": 30,
+        "supply": 90,
+        "expiration": "9/30/16",
+        "reserves_supply": 0,
+        "reserves_expiration": null
+    },
+    {
+        "name": "Nitroglycerin 0.4 mg tabs",
+        "type": "Cardiac/Cholesterol",
+        "location": "Case 7",
+        "amount": 25,
+        "supply": 100,
+        "expiration": "5/31/17",
+        "reserves_supply": 0,
+        "reserves_expiration": null
+    },
+    {
+        "name": "Bacitracin Ointment 15 gm tube",
+        "type": "Dermatologic Preparations",
+        "location": "Freezer-Derm",
+        "amount": 2,
+        "supply": 2,
+        "expiration": "09/16/2021",
+        "reserves_supply": 11,
+        "reserves_expiration": "07/17/2021"
+    },
+    {
+        "name": "Bacitracin Ointment packets",
+        "type": "Dermatologic Preparations",
+        "location": "Freezer-Derm",
+        "amount": 30,
+        "supply": 67,
+        "expiration": "07/17/2021",
+        "reserves_supply": 244,
+        "reserves_expiration": "08/17/2021"
+    },
+    {
+        "name": "Benzoyl Peroxide 10% Lotion",
+        "type": "Dermatologic Preparations",
+        "location": "Freezer-Derm",
+        "amount": 1,
+        "supply": 2,
+        "expiration": "09/16/2021",
+        "reserves_supply": 0,
+        "reserves_expiration": null
+    },
+    {
+        "name": "Benzoyl Peroxide 10% Wash",
+        "type": "Dermatologic Preparations",
+        "location": "Freezer-Derm",
+        "amount": 1,
+        "supply": 0,
+        "expiration": null,
+        "reserves_supply": 0,
+        "reserves_expiration": null
+    },
+    {
+        "name": "Chapstick",
+        "type": "Dermatologic Preparations",
+        "location": "Freezer-Derm",
+        "amount": 5,
+        "supply": 2,
+        "expiration": null,
+        "reserves_supply": 0,
+        "reserves_expiration": null
+    },
+    {
+        "name": "Clotrimazole 1% Cream",
+        "type": "Dermatologic Preparations",
+        "location": "Freezer-Derm",
+        "amount": 2,
+        "supply": 2,
+        "expiration": "08/18/2021",
+        "reserves_supply": 8,
+        "reserves_expiration": "08/18/2021"
+    },
+    {
+        "name": "Desitin/Diaper Cream",
+        "type": "Dermatologic Preparations",
+        "location": "Freezer-Derm",
+        "amount": 1,
+        "supply": 0,
+        "expiration": null,
+        "reserves_supply": 0,
+        "reserves_expiration": null
+    },
+    {
+        "name": "Hydrocotisone Cream 1%",
+        "type": "Dermatologic Preparations",
+        "location": "Freezer-Derm",
+        "amount": 2,
+        "supply": 3,
+        "expiration": [
+            "11/16",
+            "2/17"
+        ],
+        "reserves_supply": 3,
+        "reserves_expiration": "11/16/2021"
+    },
+    {
+        "name": "Ketoconazole 2% cream",
+        "type": "Dermatologic Preparations",
+        "location": "Freezer-Derm",
+        "amount": 2,
+        "supply": 3,
+        "expiration": [
+            "11/16",
+            "2/17"
+        ],
+        "reserves_supply": 3,
+        "reserves_expiration": "05/17/2021"
+    },
+    {
+        "name": "Medicated Lip Ointment",
+        "type": "Dermatologic Preparations",
+        "location": "Freezer-Derm",
+        "amount": 15,
+        "supply": 0,
+        "expiration": [
+            "7/16",
+            "2/17"
+        ],
+        "reserves_supply": 0,
+        "reserves_expiration": null
+    },
+    {
+        "name": "Molefoam Padding",
+        "type": "Dermatologic Preparations",
+        "location": "Freezer-Derm",
+        "amount": [
+            1,
+            "pk"
+        ],
+        "supply": 2,
+        "expiration": null,
+        "reserves_supply": 0,
+        "reserves_expiration": null
+    },
+    {
+        "name": "Mupirocin 2% Ointment",
+        "type": "Dermatologic Preparations",
+        "location": "Freezer-Derm",
+        "amount": 2,
+        "supply": 0,
+        "expiration": null,
+        "reserves_supply": 0,
+        "reserves_expiration": "03/17/2021"
+    },
+    {
+        "name": "Nystatin Ointment",
+        "type": "Dermatologic Preparations",
+        "location": "Freezer-Derm",
+        "amount": 1,
+        "supply": 0,
+        "expiration": null,
+        "reserves_supply": 0,
+        "reserves_expiration": null
+    },
+    {
+        "name": "Orasol Gel 20%",
+        "type": "Dermatologic Preparations",
+        "location": "Freezer-Derm",
+        "amount": 30,
+        "supply": 0,
+        "expiration": null,
+        "reserves_supply": 0,
+        "reserves_expiration": null
+    },
+    {
+        "name": "Pain Relief Cream",
+        "type": "Dermatologic Preparations",
+        "location": "Freezer-Derm",
+        "amount": 1,
+        "supply": 0,
+        "expiration": null,
+        "reserves_supply": 0,
+        "reserves_expiration": "10/16/2021"
+    },
+    {
+        "name": "Permethrin 1% Shampoo",
+        "type": "Dermatologic Preparations",
+        "location": "Drawer 2-2",
+        "amount": 5,
+        "supply": 0,
+        "expiration": null,
+        "reserves_supply": 0,
+        "reserves_expiration": null
+    },
+    {
+        "name": "Permethrin 5% Cream",
+        "type": "Dermatologic Preparations",
+        "location": "Freezer-Derm",
+        "amount": 1,
+        "supply": 0,
+        "expiration": "08/17/2021",
+        "reserves_supply": 0,
+        "reserves_expiration": null
+    },
+    {
+        "name": "Proctosol-HC 2.5% Cream/Preparation-H",
+        "type": "Dermatologic Preparations",
+        "location": "Freezer-Derm",
+        "amount": 1,
+        "supply": 1,
+        "expiration": "05/17/2021",
+        "reserves_supply": 1,
+        "reserves_expiration": "05/17/2021"
+    },
+    {
+        "name": "Salicylic Acid Pads - Corn Remover",
+        "type": "Dermatologic Preparations",
+        "location": "Freezer-Derm",
+        "amount": [
+            1,
+            "pk"
+        ],
+        "supply": 2,
+        "expiration": null,
+        "reserves_supply": 0,
+        "reserves_expiration": null
+    },
+    {
+        "name": "Salicylic Acid Pads - Callus Remover",
+        "type": "Dermatologic Preparations",
+        "location": "Freezer-Derm",
+        "amount": [
+            1,
+            "pk"
+        ],
+        "supply": 1,
+        "expiration": null,
+        "reserves_supply": 0,
+        "reserves_expiration": null
+    },
+    {
+        "name": "Selenium Sulfide 2.5% Lotion",
+        "type": "Dermatologic Preparations",
+        "location": "Freezer-Derm",
+        "amount": 1,
+        "supply": 2,
+        "expiration": [
+            "5/16",
+            "5/17"
+        ],
+        "reserves_supply": 1,
+        "reserves_expiration": "05/16/2021"
+    },
+    {
+        "name": "Silver Sulfadiazine Cream",
+        "type": "Dermatologic Preparations",
+        "location": "Freezer-Derm",
+        "amount": 1,
+        "supply": 4,
+        "expiration": [
+            "2/17",
+            "3/17"
+        ],
+        "reserves_supply": 4,
+        "reserves_expiration": "03/17/2021"
+    },
+    {
+        "name": "Sting  Kill",
+        "type": "Dermatologic Preparations",
+        "location": "Freezer-Derm",
+        "amount": 2,
+        "supply": 6,
+        "expiration": null,
+        "reserves_supply": 0,
+        "reserves_expiration": null
+    },
+    {
+        "name": "Tolnaftate Antifungal Powder",
+        "type": "Dermatologic Preparations",
+        "location": "Freezer-Derm",
+        "amount": 2,
+        "supply": 2,
+        "expiration": "04/17/2021",
+        "reserves_supply": 1,
+        "reserves_expiration": "04/17/2021"
+    },
+    {
+        "name": "Tolnaftate 1% Cream",
+        "type": "Dermatologic Preparations",
+        "location": "Freezer-Derm",
+        "amount": 1,
+        "supply": 2,
+        "expiration": "04/18/2021",
+        "reserves_supply": 3,
+        "reserves_expiration": "04/18/2021"
+    },
+    {
+        "name": "Triamcinolone 0.025% Cream",
+        "type": "Dermatologic Preparations",
+        "location": "Freezer-Derm",
+        "amount": 2,
+        "supply": 3,
+        "expiration": [
+            "8/16",
+            "7/16"
+        ],
+        "reserves_supply": 5,
+        "reserves_expiration": [
+            "7/16",
+            "8/16"
+        ]
+    },
+    {
+        "name": "Triamcinolone 0.1% Cream",
+        "type": "Dermatologic Preparations",
+        "location": "Freezer-Derm",
+        "amount": 2,
+        "supply": 4,
+        "expiration": [
+            "2/18",
+            "9/16"
+        ],
+        "reserves_supply": 2,
+        "reserves_expiration": "02/18/2021"
+    },
+    {
+        "name": "Betamethasone 0.05% Cream",
+        "type": "Dermatologic Preparations",
+        "location": "Freezer-Derm",
+        "amount": 2,
+        "supply": 3,
+        "expiration": "10/16/2021",
+        "reserves_supply": 7,
+        "reserves_expiration": "10/16/2021"
+    },
+    {
+        "name": "Unna Boot 3\"",
+        "type": "Dermatologic Preparations",
+        "location": "Freezer-Derm",
+        "amount": 1,
+        "supply": 0,
+        "expiration": null,
+        "reserves_supply": 0,
+        "reserves_expiration": null
+    },
+    {
+        "name": "Unna Boot 4\"",
+        "type": "Dermatologic Preparations",
+        "location": "Freezer-Derm",
+        "amount": 1,
+        "supply": 0,
+        "expiration": null,
+        "reserves_supply": 0,
+        "reserves_expiration": null
+    },
+    {
+        "name": "Urea Lotion",
+        "type": "Dermatologic Preparations",
+        "location": "Freezer-Derm",
+        "amount": [
+            4,
+            "oz"
+        ],
+        "supply": 0,
+        "expiration": null,
+        "reserves_supply": 0,
+        "reserves_expiration": null
+    },
+    {
+        "name": "LacHydrin Lotion or Amlactin",
+        "type": "Dermatologic Preparations",
+        "location": "Drawer 2-3",
+        "amount": [
+            4,
+            "oz"
+        ],
+        "supply": 0,
+        "expiration": null,
+        "reserves_supply": 0,
+        "reserves_expiration": null
+    },
+    {
+        "name": "White Petrolatum USP",
+        "type": "Dermatologic Preparations",
+        "location": "Freezer-Derm",
+        "amount": 1,
+        "supply": 2,
+        "expiration": "5/18/16",
+        "reserves_supply": 1,
+        "reserves_expiration": "05/18/2021"
+    },
+    {
+        "name": "Glipizide 5 mg",
+        "type": "Diabetes Meds",
+        "location": "Case 8",
+        "amount": 60,
+        "supply": 50,
+        "expiration": "4/30/16",
+        "reserves_supply": 0,
+        "reserves_expiration": null
+    },
+    {
+        "name": "Glipizide 10 mg",
+        "type": "Diabetes Meds",
+        "location": "Case 8",
+        "amount": 30,
+        "supply": 100,
+        "expiration": "6/30/16",
+        "reserves_supply": 0,
+        "reserves_expiration": null
+    },
+    {
+        "name": "Glucose Tablets",
+        "type": "Diabetes Meds",
+        "location": "Case 8",
+        "amount": 25,
+        "supply": 100,
+        "expiration": null,
+        "reserves_supply": 0,
+        "reserves_expiration": null
+    },
+    {
+        "name": "Metformin ER 500 mg tabs",
+        "type": "Diabetes Meds",
+        "location": "Case 8",
+        "amount": 30,
+        "supply": 60,
+        "expiration": "4/30/16",
+        "reserves_supply": 200,
+        "reserves_expiration": "04/16/2021"
+    },
+    {
+        "name": "SGLT2 Inhibitors (Dapagliflozin 5 mg)",
+        "type": "Diabetes Meds",
+        "location": "Case 8",
+        "amount": 30,
+        "supply": 42,
+        "expiration": "03/16/2021",
+        "reserves_supply": 0,
+        "reserves_expiration": null
+    },
+    {
+        "name": "SGLT2 Inhibitors (Dapagliflozin 10 mg)",
+        "type": "Diabetes Meds",
+        "location": "Case 8",
+        "amount": 30,
+        "supply": 42,
+        "expiration": "04/16/2021",
+        "reserves_supply": 0,
+        "reserves_expiration": null
+    },
+    {
+        "name": "DPP-4 Inhibitors (Sitagliptin 100 mg)",
+        "type": "Diabetes Meds",
+        "location": "Case 8",
+        "amount": 30,
+        "supply": 70,
+        "expiration": "06/16/2021",
+        "reserves_supply": 0,
+        "reserves_expiration": null
+    },
+    {
+        "name": "Sitagliptin/Metformin 50/500 (Janumet)",
+        "type": "Diabetes Meds",
+        "location": "Case 8",
+        "amount": 30,
+        "supply": 143,
+        "expiration": "01/16/2021",
+        "reserves_supply": 90,
+        "reserves_expiration": "09/16/2021"
+    },
+    {
+        "name": "Sitagliptin/Metformin 100/1000 (Janumet)",
+        "type": "Diabetes Meds",
+        "location": "Case 8",
+        "amount": 30,
+        "supply": 40,
+        "expiration": [
+            "2/16",
+            "9/16",
+            "10/16"
+        ],
+        "reserves_supply": 0,
+        "reserves_expiration": null
+    },
+    {
+        "name": "SGLT2 Inhibitors/DPP4 Inhibitor (10mg/5mg)",
+        "type": "Diabetes Meds",
+        "location": "Case 8",
+        "amount": 30,
+        "supply": 28,
+        "expiration": "09/16/2021",
+        "reserves_supply": 0,
+        "reserves_expiration": null
+    },
+    {
+        "name": "SGLT2 Inhibitors/DPP4 Inhibitor (25mg/5mg)",
+        "type": "Diabetes Meds",
+        "location": "Case 8",
+        "amount": 30,
+        "supply": 28,
+        "expiration": "09/16/2021",
+        "reserves_supply": 0,
+        "reserves_expiration": null
+    },
+    {
+        "name": "Alogliptin/Metformin (12.5/500)",
+        "type": "Diabetes Meds",
+        "location": "Case 8",
+        "amount": 30,
+        "supply": 56,
+        "expiration": "01/17/2021",
+        "reserves_supply": 0,
+        "reserves_expiration": null
+    },
+    {
+        "name": "Carbamide Peroxide 6.5%",
+        "type": "Ear and Eye Preparations",
+        "location": "Case 1",
+        "amount": 1,
+        "supply": 1,
+        "expiration": "09/16/2021",
+        "reserves_supply": 2,
+        "reserves_expiration": "09/16/2021"
+    },
+    {
+        "name": "Antipyrine & Benzocaine Otic",
+        "type": "Ear and Eye Preparations",
+        "location": "Case 1",
+        "amount": 1,
+        "supply": 0,
+        "expiration": null,
+        "reserves_supply": 0,
+        "reserves_expiration": null
+    },
+    {
+        "name": "Gentamycin, Cipro, or Ofloxacin Ophthalmic Soln",
+        "type": "Ear and Eye Preparations",
+        "location": "Case 1",
+        "amount": 2,
+        "supply": 2,
+        "expiration": [
+            "7/16",
+            "2/17"
+        ],
+        "reserves_supply": 4,
+        "reserves_expiration": [
+            "2/17",
+            "4/16",
+            "1/18"
+        ]
+    },
+    {
+        "name": "Artificial Tears",
+        "type": "Ear and Eye Preparations",
+        "location": "Case 1",
+        "amount": 2,
+        "supply": 2,
+        "expiration": "11/17/2021",
+        "reserves_supply": 2,
+        "reserves_expiration": "11/17/2021"
+    },
+    {
+        "name": "Neomycin/Polymyxin/Hydrocortisone (Cortisporin) Otic",
+        "type": "Ear and Eye Preparations",
+        "location": "Case 1",
+        "amount": 1,
+        "supply": 0,
+        "expiration": null,
+        "reserves_supply": 0,
+        "reserves_expiration": null
+    },
+    {
+        "name": "Ear Plugs",
+        "type": "Ear and Eye Preparations",
+        "location": "Case 1",
+        "amount": [
+            2,
+            "pairs"
+        ],
+        "supply": 35,
+        "expiration": null,
+        "reserves_supply": 2,
+        "reserves_expiration": null
+    },
+    {
+        "name": "Napchon (Opticlear) ",
+        "type": "Ear and Eye Preparations",
+        "location": "Case 1",
+        "amount": 1,
+        "supply": 1,
+        "expiration": "02/17/2021",
+        "reserves_supply": 0,
+        "reserves_expiration": null
+    },
+    {
+        "name": "Sulfacetamide or Polymyxin B Ophthalmic Soln",
+        "type": "Ear and Eye Preparations",
+        "location": "Case 1",
+        "amount": 2,
+        "supply": 2,
+        "expiration": "08/18/2021",
+        "reserves_supply": 0,
+        "reserves_expiration": null
+    },
+    {
+        "name": "Ammonia Inhalant",
+        "type": "Emergency Kit",
+        "location": "Emergency Kit",
+        "amount": 2,
+        "supply": 2,
+        "expiration": null,
+        "reserves_supply": 0,
+        "reserves_expiration": null
+    },
+    {
+        "name": "Medicaine Sting/Bite Swab",
+        "type": "Emergency Kit",
+        "location": "Emergency Kit",
+        "amount": 10,
+        "supply": 10,
+        "expiration": null,
+        "reserves_supply": 0,
+        "reserves_expiration": null
+    },
+    {
+        "name": "Epipen",
+        "type": "Emergency Kit",
+        "location": "Emergency Kit",
+        "amount": 2,
+        "supply": 0,
+        "expiration": null,
+        "reserves_supply": 0,
+        "reserves_expiration": null
+    },
+    {
+        "name": "Epipen Jr.",
+        "type": "Emergency Kit",
+        "location": "Emergency Kit",
+        "amount": 2,
+        "supply": 0,
+        "expiration": null,
+        "reserves_supply": 0,
+        "reserves_expiration": null
+    },
+    {
+        "name": "Diphenhydramine 50 mg/mL",
+        "type": "Emergency Kit",
+        "location": "Emergency Kit",
+        "amount": 1,
+        "supply": 1,
+        "expiration": null,
+        "reserves_supply": 0,
+        "reserves_expiration": null
+    },
+    {
+        "name": "Antacid",
+        "type": "GI Meds",
+        "location": "Case 3",
+        "amount": 50,
+        "supply": 75,
+        "expiration": "11/17/2021",
+        "reserves_supply": 0,
+        "reserves_expiration": "05/16/2021"
+    },
+    {
+        "name": "Bisacodyl Suppositories",
+        "type": "GI Meds",
+        "location": "Case 3",
+        "amount": 5,
+        "supply": 10,
+        "expiration": "10/16/2021",
+        "reserves_supply": 0,
+        "reserves_expiration": null
+    },
+    {
+        "name": "Proton Pump Inhibitor",
+        "type": "GI Meds",
+        "location": "Case 3",
+        "amount": 50,
+        "supply": 112,
+        "expiration": [
+            "4/16",
+            "5/17"
+        ],
+        "reserves_supply": 90,
+        "reserves_expiration": "05/17/2021"
+    },
+    {
+        "name": "Lactulose Solution",
+        "type": "GI Meds",
+        "location": "Case 3",
+        "amount": [
+            1,
+            "bottle"
+        ],
+        "supply": 1,
+        "expiration": "03/17/2021",
+        "reserves_supply": 0,
+        "reserves_expiration": null
+    },
+    {
+        "name": "Pepto-Bismol",
+        "type": "GI Meds",
+        "location": "Case 3",
+        "amount": [
+            1,
+            "bottle"
+        ],
+        "supply": [
+            0.33,
+            "bottle"
+        ],
+        "expiration": "08/16/2021",
+        "reserves_supply": 3,
+        "reserves_expiration": [
+            "8/16",
+            "4/17",
+            "5/17"
+        ]
+    },
+    {
+        "name": "Docusate Sodium 100 mg",
+        "type": "GI Meds",
+        "location": "Case 3",
+        "amount": 30,
+        "supply": 200,
+        "expiration": [
+            "9/17",
+            "4/18"
+        ],
+        "reserves_supply": 0,
+        "reserves_expiration": null
+    },
+    {
+        "name": "Promethazine 25 mg",
+        "type": "GI Meds",
+        "location": "Case 3",
+        "amount": 30,
+        "supply": 100,
+        "expiration": "12/16/2021",
+        "reserves_supply": 0,
+        "reserves_expiration": null
+    },
+    {
+        "name": "Loperamide 2 mg",
+        "type": "GI Meds",
+        "location": "Case 3",
+        "amount": 12,
+        "supply": 12,
+        "expiration": "12/16/2021",
+        "reserves_supply": 0,
+        "reserves_expiration": null
+    },
+    {
+        "name": "Ranitidine (or other H2blocker)",
+        "type": "GI Meds",
+        "location": "Case 3",
+        "amount": 30,
+        "supply": 100,
+        "expiration": "05/16/2021",
+        "reserves_supply": 0,
+        "reserves_expiration": null
+    },
+    {
+        "name": "Miconazole Applicator Set",
+        "type": "GYN Meds",
+        "location": "Case 3",
+        "amount": 1,
+        "supply": 2,
+        "expiration": "06/17/2021",
+        "reserves_supply": 2,
+        "reserves_expiration": "08/17/2021"
+    },
+    {
+        "name": "Reclipsen Tabs",
+        "type": "GYN Meds",
+        "location": "Case 3",
+        "amount": 2,
+        "supply": 6,
+        "expiration": "03/17/2021",
+        "reserves_supply": 0,
+        "reserves_expiration": null
+    },
+    {
+        "name": "Apri Tabs",
+        "type": "GYN Meds",
+        "location": "Case 3",
+        "amount": 2,
+        "supply": 6,
+        "expiration": "10/16/2021",
+        "reserves_supply": 0,
+        "reserves_expiration": null
+    },
+    {
+        "name": "Depo-Provera",
+        "type": "GYN Meds",
+        "location": "Case 3",
+        "amount": 1,
+        "supply": 0,
+        "expiration": null,
+        "reserves_supply": 0,
+        "reserves_expiration": null
+    },
+    {
+        "name": "Detrol LA (Tolterodin Tartate)",
+        "type": "GYN Meds",
+        "location": "Case 3",
+        "amount": 30,
+        "supply": 0,
+        "expiration": null,
+        "reserves_supply": 0,
+        "reserves_expiration": null
+    },
+    {
+        "name": "Medroxyprogesterone 10 mg",
+        "type": "GYN Meds",
+        "location": "Case 3",
+        "amount": 10,
+        "supply": 100,
+        "expiration": "02/18/2021",
+        "reserves_supply": 0,
+        "reserves_expiration": null
+    },
+    {
+        "name": "PlanB",
+        "type": "GYN Meds",
+        "location": "Case 3",
+        "amount": 1,
+        "supply": 1,
+        "expiration": "11/17/2021",
+        "reserves_supply": 0,
+        "reserves_expiration": null
+    },
+    {
+        "name": "Ipratropium Inhalation Soln.",
+        "type": "Pulmonary",
+        "location": "Refrigerator Closet",
+        "amount": 5,
+        "supply": 0,
+        "expiration": null,
+        "reserves_supply": 0,
+        "reserves_expiration": null
+    },
+    {
+        "name": "Albuterol Inhalation Soln. ",
+        "type": "Pulmonary",
+        "location": "Refrigerator Closet",
+        "amount": 5,
+        "supply": 0,
+        "expiration": null,
+        "reserves_supply": 0,
+        "reserves_expiration": null
+    },
+    {
+        "name": "Albuterol HFA (Proair/Ventolin)",
+        "type": "Pulmonary",
+        "location": "Case 1",
+        "amount": 2,
+        "supply": 3,
+        "expiration": [
+            "1/17",
+            "8/17"
+        ],
+        "reserves_supply": 7,
+        "reserves_expiration": "01/17/2021"
+    },
+    {
+        "name": "Steroid Inhaler",
+        "type": "Pulmonary",
+        "location": "Case 1",
+        "amount": 1,
+        "supply": 1,
+        "expiration": "01/16/2021",
+        "reserves_supply": 9,
+        "reserves_expiration": "01/16/2021"
+    },
+    {
+        "name": "Steroid/Long Acting Beta Agonist (Child)",
+        "type": "Pulmonary",
+        "location": "Case 1",
+        "amount": 1,
+        "supply": 2,
+        "expiration": [
+            "4/16",
+            "7/16"
+        ],
+        "reserves_supply": 1,
+        "reserves_expiration": "01/17/2021"
+    },
+    {
+        "name": "Steroid/Long Acting Beta Agonist (Adult)",
+        "type": "Pulmonary",
+        "location": "Case 1",
+        "amount": 1,
+        "supply": 3,
+        "expiration": [
+            "3/16",
+            "5/16",
+            "7/16"
+        ],
+        "reserves_supply": 1,
+        "reserves_expiration": "12/16/2021"
+    },
+    {
+        "name": "Tiotropium or Ipratropium",
+        "type": "Pulmonary",
+        "location": "Case 1",
+        "amount": 1,
+        "supply": 1,
+        "expiration": "11/16/2021",
+        "reserves_supply": 0,
+        "reserves_expiration": null
+    },
+    {
+        "name": "Ipratropium/Albuterol",
+        "type": "Pulmonary",
+        "location": "Case 1",
+        "amount": 1,
+        "supply": 2,
+        "expiration": "07/16/2021",
+        "reserves_supply": 0,
+        "reserves_expiration": null
+    },
+    {
+        "name": "Buproprion ER 150 mg",
+        "type": "Smoking Cessation",
+        "location": "Case 5",
+        "amount": 30,
+        "supply": 120,
+        "expiration": "10/16/2021",
+        "reserves_supply": 0,
+        "reserves_expiration": null
+    },
+    {
+        "name": "Nicotine Gum 2 mg",
+        "type": "Smoking Cessation",
+        "location": "Case 5",
+        "amount": 50,
+        "supply": 200,
+        "expiration": "02/17/2021",
+        "reserves_supply": 0,
+        "reserves_expiration": null
+    },
+    {
+        "name": "Nicotine Gum 4 mg",
+        "type": "Smoking Cessation",
+        "location": "Case 5",
+        "amount": 50,
+        "supply": 200,
+        "expiration": "02/16/2021",
+        "reserves_supply": 110,
+        "reserves_expiration": "02/17/2021"
+    },
+    {
+        "name": "Nicotine Patch 7 mg",
+        "type": "Smoking Cessation",
+        "location": "Case 5",
+        "amount": 14,
+        "supply": 57,
+        "expiration": [
+            "11/16",
+            "5/16",
+            "6/17"
+        ],
+        "reserves_supply": 0,
+        "reserves_expiration": null
+    },
+    {
+        "name": "Nicotine Patch 14 mg",
+        "type": "Smoking Cessation",
+        "location": "Case 5",
+        "amount": 14,
+        "supply": 0,
+        "expiration": null,
+        "reserves_supply": 0,
+        "reserves_expiration": null
+    },
+    {
+        "name": "Nicotine Patch 21 mg",
+        "type": "Smoking Cessation",
+        "location": "Case 5",
+        "amount": 14,
+        "supply": 42,
+        "expiration": "07/18/2021",
+        "reserves_supply": 0,
+        "reserves_expiration": null
+    },
+    {
+        "name": "Multivitamins - Adult",
+        "type": "Vitamins and Supplements",
+        "location": "Case 6",
+        "amount": 50,
+        "supply": 210,
+        "expiration": [
+            "5/18",
+            "9/17"
+        ],
+        "reserves_supply": 0,
+        "reserves_expiration": null
+    },
+    {
+        "name": "Multivitamins - Adult Gummies",
+        "type": "Vitamins and Supplements",
+        "location": "Refrigerator",
+        "amount": 50,
+        "supply": 0,
+        "expiration": null,
+        "reserves_supply": 0,
+        "reserves_expiration": null
+    },
+    {
+        "name": "Multivitamins - Children's Gummies",
+        "type": "Vitamins and Supplements",
+        "location": "Refrigerator",
+        "amount": 50,
+        "supply": 0,
+        "expiration": null,
+        "reserves_supply": 0,
+        "reserves_expiration": null
+    },
+    {
+        "name": "Multivitamins - Kids Chewable",
+        "type": "Vitamins and Supplements",
+        "location": "Case 6",
+        "amount": 50,
+        "supply": 250,
+        "expiration": "05/18/2021",
+        "reserves_supply": 0,
+        "reserves_expiration": null
+    },
+    {
+        "name": "Calcium Supplements",
+        "type": "Vitamins and Supplements",
+        "location": "Refrigerator",
+        "amount": 30,
+        "supply": 0,
+        "expiration": null,
+        "reserves_supply": 0,
+        "reserves_expiration": null
+    },
+    {
+        "name": "Prenatal Vitamins",
+        "type": "Vitamins and Supplements",
+        "location": "Case 6",
+        "amount": 30,
+        "supply": 100,
+        "expiration": "11/17/2021",
+        "reserves_supply": 0,
+        "reserves_expiration": null
+    },
+    {
+        "name": "Fiber Capsules",
+        "type": "Vitamins and Supplements",
+        "location": "Case 6",
+        "amount": 60,
+        "supply": 180,
+        "expiration": [
+            "12/16",
+            "11/17"
+        ],
+        "reserves_supply": 0,
+        "reserves_expiration": null
+    },
+    {
+        "name": "Fluoride 0.25 mg drops",
+        "type": "Vitamins and Supplements",
+        "location": "Case 6",
+        "amount": [
+            1,
+            "box"
+        ],
+        "supply": 0,
+        "expiration": null,
+        "reserves_supply": 0,
+        "reserves_expiration": null
+    },
+    {
+        "name": "Fluoride .5 mg ",
+        "type": "Vitamins and Supplements",
+        "location": "Case 6",
+        "amount": 30,
+        "supply": 0,
+        "expiration": null,
+        "reserves_supply": 0,
+        "reserves_expiration": null
+    },
+    {
+        "name": "Fluoride 1 mg",
+        "type": "Vitamins and Supplements",
+        "location": "Case 6",
+        "amount": 30,
+        "supply": 0,
+        "expiration": null,
+        "reserves_supply": 0,
+        "reserves_expiration": null
+    },
+    {
+        "name": "Iron 27 mg",
+        "type": "Vitamins and Supplements",
+        "location": "Case 6",
+        "amount": 30,
+        "supply": 200,
+        "expiration": "07/16/2021",
+        "reserves_supply": 0,
+        "reserves_expiration": null
+    },
+    {
+        "name": "Melatonin 3 mg",
+        "type": "Vitamins and Supplements",
+        "location": "Case 6",
+        "amount": 30,
+        "supply": 120,
+        "expiration": "12/17/2021",
+        "reserves_supply": 0,
+        "reserves_expiration": null
+    },
+    {
+        "name": "Corn removers/cushions",
+        "type": "Misc.",
+        "location": "Freezer-Derm",
+        "amount": 0,
+        "supply": 18,
+        "expiration": null,
+        "reserves_supply": 0,
+        "reserves_expiration": null
+    },
+    {
+        "name": "Callus cushions/removers",
+        "type": "Misc.",
+        "location": "Freezer-Derm",
+        "amount": 0,
+        "supply": 6,
+        "expiration": null,
+        "reserves_supply": 0,
+        "reserves_expiration": null
+    },
+    {
+        "name": "condoms",
+        "type": "Misc.",
+        "location": "",
+        "amount": 0,
+        "supply": 0,
+        "expiration": null,
+        "reserves_supply": 0,
+        "reserves_expiration": null
+    }
+]
