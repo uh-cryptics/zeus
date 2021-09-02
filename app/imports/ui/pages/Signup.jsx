@@ -39,10 +39,12 @@ class Signup extends React.Component {
       return <Redirect to={from}/>;
     }
     return (
-      <Container>
-        <Grid textAlign="center" verticalAlign="middle" centered columns={2}>
+        <Container fluid className="background-blue">
+          <div className="padding-fix">
+            <Container fluid className="background-black-signin">
+        <Grid textAlign="center" verticalAlign="middle" centered columns={4}>
           <Grid.Column>
-            <Header as="h2" textAlign="center">
+            <Header as="h2" textAlign="center" color="inverted">
               Register your account
             </Header>
             <Form onSubmit={this.submit}>
@@ -65,7 +67,7 @@ class Signup extends React.Component {
                   type="password"
                   onChange={this.handleChange}
                 />
-                <Form.Button content="Submit"/>
+                <Form.Button color='blue' content="Submit"/>
               </Segment>
             </Form>
             <Message>
@@ -83,6 +85,8 @@ class Signup extends React.Component {
           </Grid.Column>
         </Grid>
       </Container>
+          </div>
+        </Container>
     );
   }
 }
