@@ -8,8 +8,10 @@ class Homepage extends React.Component {
     return (
         <div>
           <NavBar/>
-        <Container fluid className="background-black">
+        <Container fluid className="background-blue padding-homepage">
+          <Container fluid textAlign="center" className="background-black">
           <h1 className="fontsize-big h1-white">WORK IN PROGRESS</h1>
+          </Container>
         </Container>
         </div>
     );
