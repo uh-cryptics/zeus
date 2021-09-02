@@ -9,8 +9,8 @@ class Landing extends React.Component {
         <Container fluid className="background-blue">
           <div className="padding-fix">
         <Container fluid textAlign='center' className="h1-white background-black">
-            <h1>ZEUS</h1>
-            <p>Inventory Management</p>
+            <h1 className="fontsize-big">ZEUS</h1>
+            <p className="fontsize-medium">Inventory Management</p>
             <div>
               <Button compact content='Login' color='blue' as={NavLink} exact to="/signin"/>
               <Button compact content='Register' color='blue' as={NavLink} exact to="/signup"/>
