@@ -3,6 +3,14 @@
   height: auto;
 }
 
+.background-blue-homepage {
+  background-size: cover;
+  background-color: #0090ba;
+  min-height: 350px;
+  max-height: 350px;
+  padding: 3%;
+}
+
 .background-black {
   background-size: cover;
   background-color: black;
@@ -16,6 +24,11 @@
 }
 
 .padding-fix {
+  padding-top: 12%;
+  padding-bottom: 12%;
+}
+
+.padding-homepage {
   padding-top: 12%;
   padding-bottom: 12%;
 }
