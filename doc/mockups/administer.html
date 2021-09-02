@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mockup Base</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css"
+        integrity="sha512-8bHTC73gkZ7rZ7vpqUQThUDhqcNFyYi2xgDgPDHc+GXVGHXq+xPjynxIopALmOPqzo9JZj0k6OqqewdGO3EsrQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"
+        integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"
+        integrity="sha512-dqw6X88iGgZlTsONxZK9ePmJEFrmHwpuMrsUChjAw1mRUhUITE5QU9pkcSox+ynfLhL15Sv2al5A0LVyDCmtUw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+</head>
+
+<body>
+    <div class="ui modal">
+        <div class="header center">Administer</div>
+        <div class="content">
+            <form class="ui form">
+                <div class="field">
+                    <label>Patient Name</label>
+                    <div class="two fields">
+                        <div class="field">
+                            <input type="text" name="first-name" placeholder="First Name">
+                        </div>
+                        <div class="field">
+                            <input type="text" name="last-name" placeholder="Last Name">
+                        </div>
+                    </div>
+                </div>
+                <div class="field">
+                    <label>Medicine</label>
+                    <select class="ui fluid dropdown">
+                        <option value="acetaminophen">Acetaminophen</option>
+                        <option value="ibuprofen">Ibuprofen</option>
+                        <option value="oxymetazoline">Oxymetazoline</option>
+                        <option value="gabapentin">Gabapentin</option>
+                        <option value="amoxicillin">Amoxicillin</option>
+                    </select>
+                </div>
+                <div class="two fields">
+                    <div class="field">
+                        <label>Quantity</label>
+                        <input type="number" name="amount">
+                    </div>
+                    <div class="field">
+                        <label>Measurement</label>
+                        <select class="ui fluid dropdown">
+                            <option value="mg">mg</option>
+                            <option value="g">g</option>
+                            <option value="vial">vial</option>
+                            <option value="ml">ml</option>
+                        </select>
+                    </div>
+                </div>
+            </form>
+    </div>
+    <div class="actions">
+        <div class="ui approve button">Administer</div>
+        <div class="ui cancel button">Cancel</div>
+    </div>
+    <script>
+        $('.ui.modal').modal('show');
+    </script>
+</body>
+
+</html>
