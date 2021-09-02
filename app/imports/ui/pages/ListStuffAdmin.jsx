@@ -4,6 +4,7 @@ import { withTracker } from 'meteor/react-meteor-data';
 import PropTypes from 'prop-types';
 import { Stuffs } from '../../api/stuff/StuffCollection';
 import StuffItemAdmin from '../components/StuffItemAdmin';
+import NavBar from '../components/NavBar';
 
 /** Renders a table containing all of the Stuff documents. Use <StuffItem> to render each row. */
 class ListStuffAdmin extends React.Component {
@@ -16,6 +17,8 @@ class ListStuffAdmin extends React.Component {
   /** Render the page once subscriptions have been received. */
   renderPage() {
     return (
+        <div>
+          <NavBar/>
         <Container>
           <Header as="h2" textAlign="center">List Stuff (Admin)</Header>
           <Table celled>
@@ -32,6 +35,7 @@ class ListStuffAdmin extends React.Component {
             </Table.Body>
           </Table>
         </Container>
+        </div>
     );
   }
 }

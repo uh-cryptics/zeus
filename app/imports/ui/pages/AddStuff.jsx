@@ -6,6 +6,7 @@ import { Meteor } from 'meteor/meteor';
 import 'uniforms-bridge-simple-schema-2'; // required for Uniforms
 import SimpleSchema from 'simpl-schema';
 import { stuffDefineMethod } from '../../api/stuff/StuffCollection.methods';
+import NavBar from '../components/NavBar';
 
 /** Create a schema to specify the structure of the data to appear in the form. */
 const formSchema = new SimpleSchema({
@@ -44,6 +45,8 @@ class AddStuff extends React.Component {
   render() {
     let fRef = null;
     return (
+        <div>
+        <NavBar/>
         <Grid container centered>
           <Grid.Column>
             <Header as="h2" textAlign="center">Add Stuff</Header>
@@ -58,6 +61,7 @@ class AddStuff extends React.Component {
             </AutoForm>
           </Grid.Column>
         </Grid>
+        </div>
     );
   }
 }
