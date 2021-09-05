@@ -10,10 +10,12 @@ class Inventory extends React.Component {
     this.handleTable = this.handleTable.bind(this);
   }
 
-  handleTable() {
-    this.setState(prevState => ({
-      medicationTable: !prevState.medicationTable
-    }));
+  handleTable(e) {
+    e = e == 'true' ? true : false;
+    
+    if (this.state.medicationTable != e) {
+      this.setState({medicationTable: e});
+    }
   }
 
   render() {
@@ -344,7 +346,7 @@ class Inventory extends React.Component {
       },
     ];
 
-    /** Grabs header inforrmation */
+    /** Grabs header information */
     function tableHeader(data) {
       const headers = Object.keys(data[0])
       const tableHeader = headers.map((header, i) => {
@@ -392,12 +394,11 @@ class Inventory extends React.Component {
         <Container fluid className="background-blue padding-homepage">
           <Container fluid textAlign="center" className="inventory-background-black">
             <h1 className="fontsize-big h1-white">Inventory</h1>
-            {/* Working Progress will probably change out the look */}
             {this.state.medicationTable ?
               <div>
                 <div className="ui two top attached buttons">
-                  <button className="ui button positive" onClick={this.handleTable}>Medication</button>
-                  <button className="ui button" onClick={this.handleTable}>Supplies</button>
+                  <button className="ui button positive" value={true} onClick={e => this.handleTable(e.target.value)}>Medication</button>
+                  <button className="ui button" value={false} onClick={e => this.handleTable(e.target.value)}>Supplies</button>
                 </div>
                 <div className="ui attached segment">
                   <table className="ui celled table fixed striped">
@@ -415,8 +416,8 @@ class Inventory extends React.Component {
               :
               <div>
                 <div className="ui two top attached buttons">
-                  <button className="ui button" onClick={this.handleTable}>Medication</button>
-                  <button className="ui button positive" onClick={this.handleTable}>Supplies</button>
+                  <button className="ui button" value={true} onClick={e => this.handleTable(e.target.value)}>Medication</button>
+                  <button className="ui button positive" value={false} onClick={e => this.handleTable(e.target.value)}>Supplies</button>
                 </div>
                 <div className="ui attached segment">
                   <table className="ui celled table fixed striped">
@@ -432,7 +433,6 @@ class Inventory extends React.Component {
                 </div>
               </div>
             }
-
           </Container>
         </Container>
       </div >
