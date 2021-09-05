@@ -1,4 +1,3 @@
-import { object } from 'prop-types';
 import React from 'react';
 import { Container } from 'semantic-ui-react';
 import NavBar from '../components/NavBar';
@@ -330,54 +329,61 @@ class Inventory extends React.Component {
         "reserves_supply": 0,
         "reserves_expiration": null
       },
-      // This object breaks the display attempting to solve
-      // {
-      //   "name": "Azilsartan/chlorthalidone 40mg/25mg",
-      //   "type": "Antihypertensives",
-      //   "location": "Case 7",
-      //   "amount": 0,
-      //   "supply": 70,
-      //   "expiration": "7/1/16",
-      //   "reserves_supply": {
-      //     "quantity": 2,
-      //     "unit": "bottle"
-      //   },
-      //   "reserves_expiration": null
-      // },
+      {
+        "name": "Azilsartan/chlorthalidone 40mg/25mg",
+        "type": "Antihypertensives",
+        "location": "Case 7",
+        "amount": 0,
+        "supply": 70,
+        "expiration": "7/1/16",
+        "reserves_supply": {
+          "quantity": 2,
+          "unit": "bottle"
+        },
+        "reserves_expiration": null
+      },
     ];
 
-    function tableData(data, type) {
+    /** Grabs header inforrmation */
+    function tableHeader(data) {
+      const headers = Object.keys(data[0])
+      const tableHeader = headers.map((header, i) => {
+        const key = `h${i}`
+        header = header.toUpperCase()
+
+        const modifiedHeader = header.replace(/_/g, ' ')
+        return (
+          <th key={key}>{modifiedHeader}</th>
+        )
+      })
+      return (tableHeader)
+    }
+
+    /** Grabs the values of each column data */
+    function tableData(data) {
       const headers = Object.keys(data[0])
 
-      if (!type) {
-        const tableHeader = headers.map((header, i) => {
-          const key = `h${i}`
-          header = header.toUpperCase()
+      const listedItems = data.map((row, i) => {
+        const columns = (Object.values(row)).map((col, j) => {
+          const key = `${i}_${j}`
 
-          const modifiedHeader = header.replace(/_/g, ' ')
-          return (
-            <th key={key}>{modifiedHeader}</th>
-          )
-        })
-        return (tableHeader)
-      } else {
-        const listedItems = data.map((row, i) => {
-          const columns = (Object.values(row)).map((col, j) => {
-            const key = `${i}_${j}`
-            return (
-              <td key={key} data-label={headers[j]}>{col}</td>
-            )
-          })
 
+          if (typeof (col) === 'object' && col != null) {
+            col = Object.values(col).join(' ')
+          }
           return (
-            <tr key={i}>
-              {columns}
-            </tr>
+            <td key={key} data-label={headers[j]}>{col}</td>
           )
         })
 
-        return (listedItems)
-      }
+        return (
+          <tr key={i}>
+            {columns}
+          </tr>
+        )
+      })
+
+      return (listedItems)
     }
 
     return (
@@ -387,39 +393,49 @@ class Inventory extends React.Component {
           <Container fluid textAlign="center" className="inventory-background-black">
             <h1 className="fontsize-big h1-white">Inventory</h1>
             {/* Working Progress will probably change out the look */}
-            <div className="ui two top attached buttons">
-              <button className="ui button" onClick={this.handleTable}>Medication</button>
-              <button className="ui button" onClick={this.handleTable}>Supplies</button>
-            </div>
-            <div className="ui attached segment">
-              {this.state.medicationTable ?
-                <table className="ui celled table">
-                  <thead>
-                    <tr>
-                      {tableData(medicationSample, 0)}
-                    </tr>
-                  </thead>
-                  <tbody>
-                    {tableData(medicationSample, 1)}
-                  </tbody>
-                </table>
-                :
-                <table className="ui celled table">
-                  <thead>
-                    <tr>
-                      {tableData(suppliesSample, 0)}
-                    </tr>
-                  </thead>
-                  <tbody>
-                    {tableData(suppliesSample, 1)}
-                  </tbody>
-                </table>
-              }
-            </div>
+            {this.state.medicationTable ?
+              <div>
+                <div className="ui two top attached buttons">
+                  <button className="ui button positive" onClick={this.handleTable}>Medication</button>
+                  <button className="ui button" onClick={this.handleTable}>Supplies</button>
+                </div>
+                <div className="ui attached segment">
+                  <table className="ui celled table fixed striped">
+                    <thead>
+                      <tr>
+                        {tableHeader(medicationSample)}
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {tableData(medicationSample)}
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+              :
+              <div>
+                <div className="ui two top attached buttons">
+                  <button className="ui button" onClick={this.handleTable}>Medication</button>
+                  <button className="ui button positive" onClick={this.handleTable}>Supplies</button>
+                </div>
+                <div className="ui attached segment">
+                  <table className="ui celled table fixed striped">
+                    <thead>
+                      <tr>
+                        {tableHeader(suppliesSample)}
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {tableData(suppliesSample)}
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            }
 
           </Container>
         </Container>
-      </div>
+      </div >
     );
   }
 }
