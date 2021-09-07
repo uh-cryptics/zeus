@@ -390,8 +390,7 @@ class Inventory extends React.Component {
     return (
       <div>
         <NavBar />
-        <Segment inverted basic color='blue'>
-          <Segment inverted basic textAlign='center'>
+          <Segment inverted basic textAlign='center' padded='very'>
             <h1 className="fontsize-big h1-white">Inventory</h1>
             {this.state.medicationTable ?
               <div>
@@ -433,7 +432,6 @@ class Inventory extends React.Component {
               </div>
             }
           </Segment>
-        </Segment>
       </div >
     );
   }
