@@ -19,6 +19,13 @@
   padding: 3%;
 }
 
+.inventory-background-black {
+  background-size: cover;
+  background-color: black;
+  min-height: fit-content;
+  padding: 3%;
+}
+
 .background-black-signin {
   background-color: black;
 }
