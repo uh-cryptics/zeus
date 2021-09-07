@@ -74,9 +74,9 @@
         </div>
         <div class="six wide field">
           <label>Expiration</label>
-          <div class="two fields">
+          <div class="three fields">
             <div class="field">
-              <select class="ui fluid search dropdown" name="card[expire-month]">
+              <select class="ui fluid search dropdown" name="expire month">
                 <option value="">Month</option>
                 <option value="1">January</option>
                 <option value="2">February</option>
@@ -93,7 +93,10 @@
               </select>
             </div>
             <div class="field">
-              <input type="text" name="card[expire-year]" maxlength="4" placeholder="Year">
+              <input type="text" name="expire day" maxlength="4" placeholder="Day">
+            </div>
+            <div class="field">
+              <input type="text" name="expire year" maxlength="4" placeholder="Year">
             </div>
           </div>
         </div>
@@ -105,7 +108,7 @@
         </div>
         <div class="six wide field">
           <label>Reserves Expiration</label>
-          <div class="two fields">
+          <div class="three fields">
             <div class="field">
               <select class="ui fluid search dropdown" name="card[expire-month]">
                 <option value="">Month</option>
@@ -124,6 +127,9 @@
               </select>
             </div>
             <div class="field">
+              <input type="text" name="expire day" maxlength="4" placeholder="Day">
+            </div>
+            <div class="field">
               <input type="text" name="card[expire-year]" maxlength="4" placeholder="Year">
             </div>
           </div>
@@ -132,8 +138,8 @@
     </form>
   </div>
   <div class="actions">
-    <div class="ui approve button">Edit</div>
-    <div class="ui cancel button">Cancel</div>
+    <button>Edit</button></a>
+    <a href="editinventory.html"><button>Cancel</button></a>
   </div>
 </div>
   <script>
