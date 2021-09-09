@@ -4,7 +4,14 @@
     { "email": "john@foo.com", "password": "changeme" }
   ],
 
-  "defaultData": [
+  "defaultMedications": [
+    { "name": "Benzonatate Capsules", "location": "Case 2", "owner": "john@foo.com", "type": "Allergy & Cold Medicines", "amount": 15, "supply": [19, 100], "expiration": ["10/16", "3/17"], "reserves_supply": 0, "reserves_expiration": "03/17/2021" },
+    { "name": "Cetirizine Soln", "location": "Case 2", "owner": "john@foo.com", "type": "Allergy & Cold Medicines", "amount": 15, "supply": [19, 100], "expiration": ["10/16", "3/17"], "reserves_supply": 0, "reserves_expiration": "03/17/2021" },    
+    { "name": "Cold and Flu Syrup", "location": "Case 2", "owner": "john@foo.com", "type": "Allergy & Cold Medicines", "amount": 15, "supply": [19, 100], "expiration": ["10/16", "3/17"], "reserves_supply": 0, "reserves_expiration": "03/17/2021" },
+    { "name": "Diphenhydramine 25 mg tabs", "location": "Case 2", "owner": "john@foo.com", "type": "Allergy & Cold Medicines", "amount": 15, "supply": [19, 100], "expiration": ["10/16", "3/17"], "reserves_supply": 0, "reserves_expiration": "03/17/2021" }  
+    ],
+
+  "defaultSupplies": [
     { "name": "Theraband - Green", "location": "Cabinet 2", "owner": "john@foo.com", "amount": 1, "reserves_location": "", "reserves_amount": 0 },
     { "name": "Theraband - Yellow", "location": "Cabinet 2", "owner": "john@foo.com", "amount": 1, "reserves_location": "", "reserves_amount": 0  },
     { "name": "Theraband - Red", "location": "Cabinet 2", "owner": "admin@foo.com", "amount": 1, "reserves_location": "", "reserves_amount": 0  },
