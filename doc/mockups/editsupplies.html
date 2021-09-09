@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mockup Base</title>
+    
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css" 
+    integrity="sha512-8bHTC73gkZ7rZ7vpqUQThUDhqcNFyYi2xgDgPDHc+GXVGHXq+xPjynxIopALmOPqzo9JZj0k6OqqewdGO3EsrQ==" 
+    crossorigin="anonymous" 
+    referrerpolicy="no-referrer" />
+
+    <script
+    src="https://code.jquery.com/jquery-3.1.1.min.js"
+    integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+    crossorigin="anonymous"></script>
+    
+    <script 
+    src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js" 
+    integrity="sha512-dqw6X88iGgZlTsONxZK9ePmJEFrmHwpuMrsUChjAw1mRUhUITE5QU9pkcSox+ynfLhL15Sv2al5A0LVyDCmtUw==" 
+    crossorigin="anonymous" 
+    referrerpolicy="no-referrer"></script>
+
+</head>
+<body>
+<div class="ui modal">
+  <div class="header center">Edit Inventory - Supplies</div>
+  <div class="content">
+    <form class="ui form">
+      <div class="field">
+        <label>Name</label>
+        <select class="ui fluid dropdown">
+          <option value="acetaminophen">Theraband - Green</option>
+          <option value="ibuprofen">Hot Packs</option>
+          <option value="oxymetazoline">Cold Packs</option>
+        </select>
+      </div>
+        <div class="field">
+          <label>Location</label>
+          <select class="ui fluid dropdown">
+            <option value="case1">Cabinet 2</option>
+            <option value="case2">Refrigerator</option>
+            <option value="case2">Freezer</option>
+          </select>
+        </div>
+      <div class="field">
+        <label>Amount</label>
+        <input type="number" name="amount">
+      </div>
+      <div class="two fields">
+        <div class="field">
+          <label>Reserves Amount</label>
+          <input type="number" name="amount">
+        </div>
+        <div class="field">
+          <label>Reserves Location</label>
+          <select class="ui fluid dropdown">
+            <option value="backcabinet">Back Cabinet</option>
+          </select>
+        </div>
+    </div>
+    </form>
+  </div>
+  <div class="actions">
+    <div class="actions">
+      <button>Edit</button></a>
+      <a href="editinventory.html"><button>Cancel</button></a>
+    </div>
+  </div>
+</div>
+  <script>
+    $('.ui.modal').modal('show');
+  </script>
+</body>
+</html>
