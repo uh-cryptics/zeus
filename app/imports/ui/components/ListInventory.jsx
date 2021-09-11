@@ -2,6 +2,7 @@ import React from 'react';
 import { Segment } from 'semantic-ui-react';
 import NavBar from '../components/NavBar';
 import Administer from './Administer';
+import AddInventory from './AddInventory';
 
 /** A simple static component to render some text for the landing page. */
 class ListInventory extends React.Component {
@@ -392,12 +393,17 @@ class ListInventory extends React.Component {
       return {key: medication.name, value: medication.name, text: medication.name}
     });
 
+    const medicationType = medicationSample.map(medication => {
+      return {key: medication.type, value: medication.type, text: medication.type}
+    });
+
     return (
         <div>
           <NavBar />
           <Segment inverted basic textAlign='center' color='blue' padded='very'>
             <h1 className="fontsize-big h1-white">Inventory</h1>
             <Administer medication={medicationNames}/>
+            <AddInventory medType={medicationType}/>
             {this.state.medicationTable ?
                 <div>
                   <div className="ui two top attached buttons">
