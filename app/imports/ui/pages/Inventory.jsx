@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container } from 'semantic-ui-react';
 import NavBar from '../components/NavBar';
+import SearchStandard from './Search';
 
 /** A simple static component to render some text for the landing page. */
 class Inventory extends React.Component {
@@ -392,6 +393,7 @@ class Inventory extends React.Component {
       <div>
         <NavBar />
         <Container fluid className="background-blue padding-homepage">
+          <SearchStandard/>
           <Container fluid textAlign="center" className="inventory-background-black">
             <h1 className="fontsize-big h1-white">Inventory</h1>
             {this.state.medicationTable ?
