@@ -3,6 +3,8 @@ import { Segment } from 'semantic-ui-react';
 import NavBar from '../components/NavBar';
 import Administer from './Administer';
 import AddInventory from './AddInventory';
+import EditMedications from './EditMedications';
+import EditSupplies from './EditSupplies';
 
 /** A simple static component to render some text for the landing page. */
 class ListInventory extends React.Component {
@@ -402,6 +404,8 @@ class ListInventory extends React.Component {
           <NavBar />
           <Segment inverted basic textAlign='center' color='blue' padded='very'>
             <h1 className="fontsize-big h1-white">Inventory</h1>
+            <EditMedications medication={medicationNames} medType={medicationType}/>
+            <EditSupplies/>
             <Administer medication={medicationNames}/>
             <AddInventory medType={medicationType}/>
             {this.state.medicationTable ?
