@@ -68,7 +68,7 @@ class EditMedications extends React.Component {
                   </Form.Field>
                   <Form.Field required>
                     <label>Reserves Supply</label>
-                    <Input placeholder="Enter reserves supply amount"/>
+                    <Input type="number" placeholder="Enter reserves supply amount"/>
                   </Form.Field>
                   <Form.Field required>
                     <label>Reserves Expiration</label>
