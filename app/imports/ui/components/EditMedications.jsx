@@ -14,7 +14,6 @@ class EditMedications extends React.Component {
   }
 
   submit() {
-    console.log('Edited Successfully');
     this.setOpen(false);
   }
 

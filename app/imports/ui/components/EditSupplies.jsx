@@ -14,7 +14,6 @@ class EditSupplies extends React.Component {
     }
 
     submit() {
-        console.log('Edit Successfully');
         this.setOpen(false);
     }
 
