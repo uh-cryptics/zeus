@@ -399,6 +399,10 @@ class ListInventory extends React.Component {
       return {key: medication.type, value: medication.type, text: medication.type}
     });
 
+    const filterTypes = [...new Set(medicationType.map(q => q.key))];
+
+    const filteredTypeArray = filterTypes.map((str, index) => ({ key: str, value: str, text: str, id: index + 1 }));
+
     return (
         <div>
           <NavBar />
@@ -407,7 +411,7 @@ class ListInventory extends React.Component {
             <EditMedications medication={medicationNames} medType={medicationType}/>
             <EditSupplies/>
             <Administer medication={medicationNames}/>
-            <AddInventory medType={medicationType}/>
+            <AddInventory medType={filteredTypeArray}/>
             {this.state.medicationTable ?
                 <div>
                   <div className="ui two top attached buttons">

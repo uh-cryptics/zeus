@@ -14,7 +14,6 @@ class AddInventory extends React.Component {
     }
 
     submit() {
-        console.log('added to inventory');
         this.setOpen(false);
     }
 
