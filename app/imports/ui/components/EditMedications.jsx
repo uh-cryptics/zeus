@@ -24,7 +24,7 @@ class EditMedications extends React.Component {
             onClose={() => this.setOpen(false)}
             onOpen={() => this.setOpen(true)}
             open={this.state.open}
-            trigger={<Button floated="left">Edit a Medication</Button>}>
+            trigger={<Button floated="left">Edit Medications</Button>}>
           <Modal.Header>Edit a Medication</Modal.Header>
           <Modal.Content>
             <Form>
