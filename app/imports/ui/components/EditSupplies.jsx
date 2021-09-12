@@ -32,7 +32,7 @@ class EditSupplies extends React.Component {
                         <label>Name</label>
                           <Form.Group widths="equal">
                             <Form.Field>
-                              <Input placeholder="Enter name" name="supply-name"/>
+                              <Input placeholder="Enter supply name" name="supply-name"/>
                             </Form.Field>
                           </Form.Group>
                       </Form.Field>
@@ -56,7 +56,7 @@ class EditSupplies extends React.Component {
                           </Form.Field>
                           <Form.Field required>
                             <label>Reserves Amount</label>
-                            <Input placeholder="Enter reserves amount" name="reserves-amount"/>
+                            <Input type="number" placeholder="Enter reserves amount" name="reserves-amount"/>
                           </Form.Field>
                         </Form.Group>
                       </Form.Field>
