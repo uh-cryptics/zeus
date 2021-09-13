@@ -11,7 +11,7 @@ export const stuffPublications = {
   stuffAdmin: 'StuffAdmin',
 };
 
-class MedicationCollection extends BaseCollection {
+class StuffCollection extends BaseCollection {
   constructor() {
     super('Stuffs', new SimpleSchema({
       name: String,
