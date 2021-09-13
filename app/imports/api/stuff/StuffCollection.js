@@ -11,12 +11,17 @@ export const stuffPublications = {
   stuffAdmin: 'StuffAdmin',
 };
 
-class StuffCollection extends BaseCollection {
+class MedicationCollection extends BaseCollection {
   constructor() {
     super('Stuffs', new SimpleSchema({
       name: String,
-      quantity: Number,
-      owner: String,
+      type: String,
+      location: String,
+      supply: Number,
+      amount: Number,
+      expiration: Date,
+      reserves_supply: Number,
+      reserves_expiration: Date,
       condition: {
         type: String,
         allowedValues: stuffConditions,
@@ -24,6 +29,8 @@ class StuffCollection extends BaseCollection {
       },
     }));
   }
+
+  
 
   /**
    * Defines a new Stuff item.
