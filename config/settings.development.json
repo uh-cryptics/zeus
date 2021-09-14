@@ -4,7 +4,7 @@
     { "email": "john@foo.com", "password": "changeme" }
   ],
 
-<<<<<<< HEAD
+
   "defaultMedications": [
     { "name": "Benzonatate Capsules", "location": "Case 2", "owner": "john@foo.com", "type": "Allergy & Cold Medicines", "amount": 15, "supply": [19, 100], "expiration": ["10/16", "3/17"], "reserves_supply": 0, "reserves_expiration": "03/17/2021" },
     { "name": "Cetirizine Soln", "location": "Case 2", "owner": "john@foo.com", "type": "Allergy & Cold Medicines", "amount": 15, "supply": [19, 100], "expiration": ["10/16", "3/17"], "reserves_supply": 0, "reserves_expiration": "03/17/2021" },    
@@ -17,14 +17,8 @@
     { "name": "Theraband - Yellow", "location": "Cabinet 2", "owner": "john@foo.com", "amount": 1, "reserves_location": "", "reserves_amount": 0  },
     { "name": "Theraband - Red", "location": "Cabinet 2", "owner": "admin@foo.com", "amount": 1, "reserves_location": "", "reserves_amount": 0  },
     { "name": "Theraband - Beige", "location": "Cabinet 2", "owner": "admin@foo.com", "amount": 1, "reserves_location": "", "reserves_amount": 0  }
-  ]
-=======
-  "defaultData": [
-    { "name": "Basket", "quantity": 3, "owner": "john@foo.com", "condition": "excellent" },
-    { "name": "Bicycle", "quantity": 2, "owner": "john@foo.com", "condition": "poor" },
-    { "name": "Banana", "quantity": 2, "owner": "admin@foo.com", "condition": "good" },
-    { "name": "Boogie Board", "quantity": 2, "owner": "admin@foo.com", "condition": "excellent" }
   ],
+
 
   "medicationSample": [
   {
@@ -201,5 +195,5 @@
     "owner": "john@foo.com"
   }
 ]
->>>>>>> main
+
 }
