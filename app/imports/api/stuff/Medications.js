@@ -18,6 +18,8 @@ const MedicationsSchema = new SimpleSchema({
     
 }, { tracker: Tracker });
 
+
+
 /** Attach this schema to the collection. */
 Medications.attachSchema(MedicationsSchema);
 
