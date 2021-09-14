@@ -1,6 +1,5 @@
 import React from 'react';
 import { Button, Modal, Form, Input } from 'semantic-ui-react';
-import PropTypes from 'prop-types';
 
 class EditSupplies extends React.Component {
 
