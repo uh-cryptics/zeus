@@ -73,8 +73,8 @@ class StuffCollection extends BaseCollection {
     if (_.isNumber(amount)) {
       updateData.amount = amount;
     }
-    if (condition) {
-      updateData.condition = condition;
+    if (type) {
+      updateData.type = type;
     }
     this._collection.update(docID, { $set: updateData });
   }
