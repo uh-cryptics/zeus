@@ -22,13 +22,9 @@ class StuffCollection extends BaseCollection {
       expiration: Date,
       reserves_supply: Number,
       reserves_expiration: Date,
-      condition: {
-        type: String,
-        allowedValues: stuffConditions,
-        defaultValue: 'good',
-      },
     }));
   }
+
 
   
 
