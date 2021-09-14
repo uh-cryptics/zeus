@@ -39,8 +39,7 @@ class AddInventory extends React.Component {
                           <Form.Group widths="equal">
                             <Form.Field required>
                               <label>Medication Type</label>
-                              <Select placeholder="Select medication type" name="med-type"
-                                      options={this.props.medType}/>
+                              <Select placeholder="Select medication type" name="med-type" options={this.props.medType}/>
                             </Form.Field>
                             <Form.Field required>
                               <label>Amount</label>
