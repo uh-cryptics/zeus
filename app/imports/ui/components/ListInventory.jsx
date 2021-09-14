@@ -1,6 +1,11 @@
 import React from 'react';
 import { Segment } from 'semantic-ui-react';
 import NavBar from '../components/NavBar';
+import Administer from './Administer';
+import AddInventory from './AddInventory';
+import EditMedications from './EditMedications';
+import EditSupplies from './EditSupplies';
+import SearchStandard from '../../api/inventory/SearchStandard';
 
 /** A simple static component to render some text for the landing page. */
 class ListInventory extends React.Component {
@@ -349,7 +354,7 @@ class ListInventory extends React.Component {
     /** Grabs header information */
     function tableHeader(data) {
       const headers = Object.keys(data[0]);
-      const tableHeader = headers.map((header, i) => {
+      const tableHeaders = headers.map((header, i) => {
         const key = `h${i}`;
         header = header.toUpperCase();
 
@@ -358,7 +363,7 @@ class ListInventory extends React.Component {
             <th key={key}>{modifiedHeader}</th>
         );
       });
-      return (tableHeader);
+      return (tableHeaders);
     }
 
     /** Grabs the values of each column data */
@@ -387,16 +392,33 @@ class ListInventory extends React.Component {
       return (listedItems);
     }
 
+    const medicationNames = medicationSample.map(medication => ({ key: medication.name, value: medication.name,
+      text: medication.name }));
+
+    const medicationType = medicationSample.map(medication => ({ key: medication.type, value: medication.type,
+      text: medication.type }));
+
+    const filterTypes = [...new Set(medicationType.map(q => q.key))];
+
+    const filteredTypeArray = filterTypes.map((str, index) => ({ key: str, value: str, text: str, id: index + 1 }));
+
     return (
         <div>
           <NavBar />
           <Segment inverted basic textAlign='center' color='blue' padded='very'>
             <h1 className="fontsize-big h1-white">Inventory</h1>
+            <SearchStandard/>
+            <EditMedications medication={medicationNames} medType={medicationType}/>
+            <EditSupplies/>
+            <Administer medication={medicationNames}/>
+            <AddInventory medType={filteredTypeArray}/>
             {this.state.medicationTable ?
                 <div>
                   <div className="ui two top attached buttons">
-                    <button className="ui button positive" value={true} onClick={e => this.handleTable(e.target.value)}>Medication</button>
-                    <button className="ui button" value={false} onClick={e => this.handleTable(e.target.value)}>Supplies</button>
+                    <button className="ui button positive" value={true}
+                            onClick={e => this.handleTable(e.target.value)}>Medication</button>
+                    <button className="ui button" value={false}
+                            onClick={e => this.handleTable(e.target.value)}>Supplies</button>
                   </div>
                   <div className="ui attached segment">
                     <table className="ui celled table fixed striped">
@@ -414,8 +436,10 @@ class ListInventory extends React.Component {
                 :
                 <div>
                   <div className="ui two top attached buttons">
-                    <button className="ui button" value={true} onClick={e => this.handleTable(e.target.value)}>Medication</button>
-                    <button className="ui button positive" value={false} onClick={e => this.handleTable(e.target.value)}>Supplies</button>
+                    <button className="ui button" value={true}
+                            onClick={e => this.handleTable(e.target.value)}>Medication</button>
+                    <button className="ui button positive" value={false}
+                            onClick={e => this.handleTable(e.target.value)}>Supplies</button>
                   </div>
                   <div className="ui attached segment">
                     <table className="ui celled table fixed striped">
