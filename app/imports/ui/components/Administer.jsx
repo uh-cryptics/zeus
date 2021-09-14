@@ -1,5 +1,5 @@
-import React from "react";
-import { Button, Modal, Form, Input, Select } from 'semantic-ui-react'
+import React from 'react';
+import { Button, Modal, Form, Input, Select } from 'semantic-ui-react';
 import PropTypes from 'prop-types';
 
 class Administer extends React.Component {
@@ -14,7 +14,6 @@ class Administer extends React.Component {
     }
 
     submit() {
-        console.log("Submit stuff here later..")
         this.setOpen(false);
     }
 
@@ -25,8 +24,7 @@ class Administer extends React.Component {
                 onOpen={() => this.setOpen(true)}
                 open={this.state.open}
                 trigger={<Button floated="right">Administer</Button>}>
-                
-                <Modal.Header>Admnister Medication</Modal.Header>
+                <Modal.Header>Administer Medication</Modal.Header>
                 <Modal.Content>
                     <Form>
                         <Form.Field required>
@@ -43,8 +41,9 @@ class Administer extends React.Component {
                         <Form.Field>
                             <Form.Group widths="equal">
                                 <Form.Field required>
-                                    <label>Medicine</label>
-                                    <Select placeholder="Select a medicine to administer..." options={this.props.medication} />
+                                  <label>Medicine</label>
+                                  <Select placeholder="Select a medicine to administer..."
+                                          options={this.props.medication} />
                                 </Form.Field>
                                 <Form.Field required>
                                     <label>Amount</label>

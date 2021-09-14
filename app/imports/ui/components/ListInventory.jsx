@@ -392,11 +392,11 @@ class ListInventory extends React.Component {
     }
 
     const medicationNames = medicationSample.map(medication => {
-      return {key: medication.name, value: medication.name, text: medication.name}
+      return { key: medication.name, value: medication.name, text: medication.name };
     });
 
     const medicationType = medicationSample.map(medication => {
-      return {key: medication.type, value: medication.type, text: medication.type}
+      return { key: medication.type, value: medication.type, text: medication.type };
     });
 
     const filterTypes = [...new Set(medicationType.map(q => q.key))];
@@ -408,15 +408,17 @@ class ListInventory extends React.Component {
           <NavBar />
           <Segment inverted basic textAlign='center' color='blue' padded='very'>
             <h1 className="fontsize-big h1-white">Inventory</h1>
-            <EditMedications medication={medicationNames} medType={medicationType}/>
+            <EditMedications medication={medicationNames} medType={filteredTypeArray}/>
             <EditSupplies/>
             <Administer medication={medicationNames}/>
             <AddInventory medType={filteredTypeArray}/>
             {this.state.medicationTable ?
                 <div>
                   <div className="ui two top attached buttons">
-                    <button className="ui button positive" value={true} onClick={e => this.handleTable(e.target.value)}>Medication</button>
-                    <button className="ui button" value={false} onClick={e => this.handleTable(e.target.value)}>Supplies</button>
+                    <button className="ui button positive" value={true}
+                            onClick={e => this.handleTable(e.target.value)}>Medication</button>
+                    <button className="ui button" value={false}
+                            onClick={e => this.handleTable(e.target.value)}>Supplies</button>
                   </div>
                   <div className="ui attached segment">
                     <table className="ui celled table fixed striped">
@@ -434,8 +436,10 @@ class ListInventory extends React.Component {
                 :
                 <div>
                   <div className="ui two top attached buttons">
-                    <button className="ui button" value={true} onClick={e => this.handleTable(e.target.value)}>Medication</button>
-                    <button className="ui button positive" value={false} onClick={e => this.handleTable(e.target.value)}>Supplies</button>
+                    <button className="ui button" value={true}
+                            onClick={e => this.handleTable(e.target.value)}>Medication</button>
+                    <button className="ui button positive" value={false}
+                            onClick={e => this.handleTable(e.target.value)}>Supplies</button>
                   </div>
                   <div className="ui attached segment">
                     <table className="ui celled table fixed striped">
