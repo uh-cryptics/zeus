@@ -31,17 +31,25 @@ class StuffCollection extends BaseCollection {
   /**
    * Defines a new Stuff item.
    * @param name the name of the item.
-   * @param quantity how many.
-   * @param owner the owner of the item.
-   * @param condition the condition of the item.
+   * @param type what kind of item.
+   * @param location where it is stored.
+   * @param amount the number of items.
+   * @param supply the condition of the item.
+   * @param expiration expiration date.
+   * @param reserves_supply the condition of the item.
+   * @param reserves_expiration the condition of the item.
    * @return {String} the docID of the new document.
    */
-  define({ name, quantity, owner, condition }) {
+  define({ name, type, location, supply, amount, expiration, reserves_supply, reserves_expiration }) {
     const docID = this._collection.insert({
       name,
-      quantity,
-      owner,
-      condition,
+      type,
+      location,
+      supply,
+      amount,
+      expiration,
+      reserves_supply,
+      reserves_expiration,
     });
     return docID;
   }
@@ -59,8 +67,11 @@ class StuffCollection extends BaseCollection {
       updateData.name = name;
     }
     // if (quantity) { NOTE: 0 is falsy so we need to check if the quantity is a number.
-    if (_.isNumber(quantity)) {
-      updateData.quantity = quantity;
+    if (_.isNumber(supply)) {
+      updateData.supply = supply;
+    }
+    if (_.isNumber(amount)) {
+      updateData.amount = amount;
     }
     if (condition) {
       updateData.condition = condition;
