@@ -7,6 +7,7 @@ import EditMedications from './EditMedications';
 import EditSupplies from './EditSupplies';
 import DeleteMedications from './DeleteMedications';
 import DeleteSupplies from './DeleteSupplies';
+import SearchStandard from '../../api/inventory/SearchStandard';
 
 /** A simple static component to render some text for the landing page. */
 class ListInventory extends React.Component {
@@ -393,13 +394,11 @@ class ListInventory extends React.Component {
       return (listedItems);
     }
 
-    const medicationNames = medicationSample.map(medication => {
-      return {key: medication.name, value: medication.name, text: medication.name}
-    });
+    const medicationNames = medicationSample.map(medication => ({ key: medication.name, value: medication.name,
+      text: medication.name }));
 
-    const medicationType = medicationSample.map(medication => {
-      return {key: medication.type, value: medication.type, text: medication.type}
-    });
+    const medicationType = medicationSample.map(medication => ({ key: medication.type, value: medication.type,
+      text: medication.type }));
 
     const supplyNames = suppliesSample.map(supply => {
       return {key: supply.name, value: supply.name, text: supply.name}
@@ -414,6 +413,7 @@ class ListInventory extends React.Component {
           <NavBar />
           <Segment inverted basic textAlign='center' color='blue' padded='very'>
             <h1 className="fontsize-big h1-white">Inventory</h1>
+            <SearchStandard/>
             <EditMedications medication={medicationNames} medType={medicationType}/>
             <EditSupplies/>
             <Administer medication={medicationNames}/>
@@ -423,8 +423,10 @@ class ListInventory extends React.Component {
             {this.state.medicationTable ?
                 <div>
                   <div className="ui two top attached buttons">
-                    <button className="ui button positive" value={true} onClick={e => this.handleTable(e.target.value)}>Medication</button>
-                    <button className="ui button" value={false} onClick={e => this.handleTable(e.target.value)}>Supplies</button>
+                    <button className="ui button positive" value={true}
+                            onClick={e => this.handleTable(e.target.value)}>Medication</button>
+                    <button className="ui button" value={false}
+                            onClick={e => this.handleTable(e.target.value)}>Supplies</button>
                   </div>
                   <div className="ui attached segment">
                     <table className="ui celled table fixed striped">
@@ -442,8 +444,10 @@ class ListInventory extends React.Component {
                 :
                 <div>
                   <div className="ui two top attached buttons">
-                    <button className="ui button" value={true} onClick={e => this.handleTable(e.target.value)}>Medication</button>
-                    <button className="ui button positive" value={false} onClick={e => this.handleTable(e.target.value)}>Supplies</button>
+                    <button className="ui button" value={true}
+                            onClick={e => this.handleTable(e.target.value)}>Medication</button>
+                    <button className="ui button positive" value={false}
+                            onClick={e => this.handleTable(e.target.value)}>Supplies</button>
                   </div>
                   <div className="ui attached segment">
                     <table className="ui celled table fixed striped">
