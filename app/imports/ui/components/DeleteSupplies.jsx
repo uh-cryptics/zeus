@@ -2,7 +2,7 @@ import React from 'react';
 import { Button, Modal, Form, Input, Select } from 'semantic-ui-react';
 import PropTypes from 'prop-types';
 
-class DeleteMedications extends React.Component {
+class DeleteSupplies extends React.Component {
 
   constructor(props) {
     super(props);
@@ -23,23 +23,23 @@ class DeleteMedications extends React.Component {
             onClose={() => this.setOpen(false)}
             onOpen={() => this.setOpen(true)}
             open={this.state.open}
-            trigger={<Button floated="right">Delete Medications</Button>}>
+            trigger={<Button floated="right">Delete Supplies</Button>}>
           <Modal.Header>Delete a Medication</Modal.Header>
           <Modal.Content>
             <Form>
               <Form.Field required>
-                <label>Medication Name</label>
+                <label>Supply Name</label>
                 <Form.Group widths="equal">
                   <Form.Field>
-                    <Select placeholder="Medication Name" options={this.props.medication}/>
+                    <Select placeholder="Supply Name" options={this.props.medication}/>
                   </Form.Field>
                 </Form.Group>
               </Form.Field>
               <Form.Field>
                 <Form.Group widths="equal">
                   <Form.Field required>
-                    <label>Medication Type</label>
-                    <Select placeholder="Medication Type" options={this.props.medType}/>
+                    <label>Supply Type</label>
+                    <Select placeholder="Supply Type" options={this.props.medType}/>
                   </Form.Field>
                   <Form.Field required>
                     <label>Location</label>
@@ -58,9 +58,9 @@ class DeleteMedications extends React.Component {
   }
 }
 
-DeleteMedications.propTypes = {
+DeleteSupplies.propTypes = {
   medication: PropTypes.array.isRequired,
   medType: PropTypes.array.isRequired,
 };
 
-export default DeleteMedications;
+export default DeleteSupplies;
