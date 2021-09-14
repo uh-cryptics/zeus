@@ -31,16 +31,12 @@ class DeleteSupplies extends React.Component {
                 <label>Supply Name</label>
                 <Form.Group widths="equal">
                   <Form.Field>
-                    <Select placeholder="Supply Name" options={this.props.medication}/>
+                    <Select placeholder="Supply Name" options={this.props.supply}/>
                   </Form.Field>
                 </Form.Group>
               </Form.Field>
               <Form.Field>
                 <Form.Group widths="equal">
-                  <Form.Field required>
-                    <label>Supply Type</label>
-                    <Select placeholder="Supply Type" options={this.props.medType}/>
-                  </Form.Field>
                   <Form.Field required>
                     <label>Location</label>
                     <Input placeholder="Enter storage location"/>
@@ -59,8 +55,7 @@ class DeleteSupplies extends React.Component {
 }
 
 DeleteSupplies.propTypes = {
-  medication: PropTypes.array.isRequired,
-  medType: PropTypes.array.isRequired,
+  supply: PropTypes.array.isRequired,
 };
 
 export default DeleteSupplies;
