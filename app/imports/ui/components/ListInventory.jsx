@@ -355,7 +355,7 @@ class ListInventory extends React.Component {
     /** Grabs header information */
     function tableHeader(data) {
       const headers = Object.keys(data[0]);
-      const tableHeader = headers.map((header, i) => {
+      const tableHeaders = headers.map((header, i) => {
         const key = `h${i}`;
         header = header.toUpperCase();
 
@@ -364,7 +364,7 @@ class ListInventory extends React.Component {
             <th key={key}>{modifiedHeader}</th>
         );
       });
-      return (tableHeader);
+      return (tableHeaders);
     }
 
     /** Grabs the values of each column data */
