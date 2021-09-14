@@ -5,6 +5,7 @@ import Administer from './Administer';
 import AddInventory from './AddInventory';
 import EditMedications from './EditMedications';
 import EditSupplies from './EditSupplies';
+import DeleteMedications from './DeleteMedications';
 
 /** A simple static component to render some text for the landing page. */
 class ListInventory extends React.Component {
@@ -412,6 +413,7 @@ class ListInventory extends React.Component {
             <EditSupplies/>
             <Administer medication={medicationNames}/>
             <AddInventory medType={filteredTypeArray}/>
+            <DeleteMedications medication={medicationNames} medType={medicationType}/>
             {this.state.medicationTable ?
                 <div>
                   <div className="ui two top attached buttons">
