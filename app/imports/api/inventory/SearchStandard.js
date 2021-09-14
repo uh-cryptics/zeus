@@ -3,7 +3,7 @@ import React from 'react';
 import { Search, Grid, Table, Label } from 'semantic-ui-react';
 import PropTypes from 'prop-types';
 import { withTracker } from 'meteor/react-meteor-data';
-import { Inventorys } from '../../api/inventory/InventoryCollection';
+import { Inventorys } from './InventoryCollection';
 
 const medicationSample = [
   {
@@ -174,6 +174,8 @@ const initialState = {
   value: '',
 };
 
+const resultRenderer = ({ name }) => <Label content={name} />;
+
 function exampleReducer(state, action) {
   switch (action.type) {
     case 'CLEAN_QUERY':
@@ -189,8 +191,6 @@ function exampleReducer(state, action) {
       throw new Error();
   }
 }
-
-const resultRenderer = ({ name }) => <Label content={name} />;
 
 function SearchStandard() {
   const [state, dispatch] = React.useReducer(exampleReducer, initialState);
@@ -221,7 +221,7 @@ function SearchStandard() {
     }, []);
 
   return (
-      <Grid>
+      <Grid centered={true}>
         <Grid.Column width={6}>
           <Search
               loading={loading}
@@ -231,8 +231,8 @@ function SearchStandard() {
               resultRenderer={resultRenderer}
               results={results}
               value={value}
-              showNoResults={'true'}
-              selectFirstResult={'true'}
+              showNoResults={true}
+              selectFirstResult={true}
           />
         </Grid.Column>
 
@@ -246,17 +246,17 @@ function SearchStandard() {
             <Table.Header>
               <Table.Row>
                 <Table.HeaderCell>Name</Table.HeaderCell>
-                <Table.HeaderCell>Type</Table.HeaderCell>
-                <Table.HeaderCell>Location</Table.HeaderCell>
-                <Table.HeaderCell>Amount</Table.HeaderCell>
-                <Table.HeaderCell>Supply</Table.HeaderCell>
-                <Table.HeaderCell>Expiration</Table.HeaderCell>
-                <Table.HeaderCell>Reserves Supply</Table.HeaderCell>
-                <Table.HeaderCell>Reserves Expiration</Table.HeaderCell>
+                {/* <Table.HeaderCell>Type</Table.HeaderCell> */}
+                {/* <Table.HeaderCell>Location</Table.HeaderCell> */}
+                {/* <Table.HeaderCell>Amount</Table.HeaderCell> */}
+                {/* <Table.HeaderCell>Supply</Table.HeaderCell> */}
+                {/* <Table.HeaderCell>Expiration</Table.HeaderCell> */}
+                {/* <Table.HeaderCell>Reserves Supply</Table.HeaderCell> */}
+                {/* <Table.HeaderCell>Reserves Expiration</Table.HeaderCell> */}
               </Table.Row>
             </Table.Header>
             <Table.Row>
-              {JSON.stringify({ results }, null, 2)}
+               <Table.Cell>{JSON.stringify({ results }, null, 2)}</Table.Cell>
             </Table.Row>
           </Table>
         </Grid.Column>
