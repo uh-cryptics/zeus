@@ -26,11 +26,21 @@
 </head>
 <body>
 <div class="ui modal">
-  <div class="header center">Delete Inventory - Medications</div>
+  <div class="header center">Delete Medications</div>
   <div class="content">
     <form class="ui form">
+      <div class="field">
+        <label>Medication Name</label>
+        <select class="ui fluid dropdown">
+          <option value="acetaminophen">Acetaminophen</option>
+          <option value="ibuprofen">Ibuprofen</option>
+          <option value="oxymetazoline">Oxymetazoline</option>
+          <option value="gabapentin">Gabapentin</option>
+          <option value="amoxicillin">Amoxicillin</option>
+        </select>
+      </div>
         <div class="field">
-          <label>Type</label>
+          <label>Medication Type</label>
           <select class="ui fluid dropdown">
             <option>Allergy & Cold Medicines</option>
             <option>Analgesics/Anti-inflammatory</option>
@@ -48,16 +58,6 @@
             <option>Vitamins and Supplements</option>
           </select>
         </div>
-      <div class="field">
-        <label>Name</label>
-        <select class="ui fluid dropdown">
-          <option value="acetaminophen">Acetaminophen</option>
-          <option value="ibuprofen">Ibuprofen</option>
-          <option value="oxymetazoline">Oxymetazoline</option>
-          <option value="gabapentin">Gabapentin</option>
-          <option value="amoxicillin">Amoxicillin</option>
-        </select>
-      </div>
       <div class="three fields">
         <div class="field">
           <label>Location</label>
@@ -67,12 +67,12 @@
             <option value="case3">Case 3</option>
             <option value="case4">Case 4</option>
           </select>
-        </div
+        </div>
     </form>
   </div>
   <div class="actions">
     <button>Delete</button></a>
-    <a href="editinventory.html"><button>Cancel</button></a>
+    <button>Cancel</button></a>
   </div>
 </div>
   <script>
