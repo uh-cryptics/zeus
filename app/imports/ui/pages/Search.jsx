@@ -231,6 +231,8 @@ function SearchStandard() {
               resultRenderer={resultRenderer}
               results={results}
               value={value}
+              showNoResults={'true'}
+              selectFirstResult={'true'}
           />
         </Grid.Column>
 
