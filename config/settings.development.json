@@ -46,7 +46,7 @@
     "supply": 80,
     "expiration": "03/17/2021",
     "reserves_supply": 0,
-    "reserves_expiration": null,
+    "reserves_expiration": "",
     "owner": "john@foo.com"
   },
   {
@@ -60,7 +60,7 @@
       "3/17"
     ],
     "reserves_supply": 0,
-    "reserves_expiration": null,
+    "reserves_expiration": "",
     "owner": "john@foo.com"
   },
   {
@@ -74,7 +74,7 @@
     "supply": 2,
     "expiration": "10/16/2021",
     "reserves_supply": 0,
-    "reserves_expiration": null,
+    "reserves_expiration": "",
     "owner": "john@foo.com"
   },
   {
@@ -85,7 +85,7 @@
     "supply": 70,
     "expiration": "3/1/17",
     "reserves_supply": 0,
-    "reserves_expiration": null,
+    "reserves_expiration": "",
     "owner": "john@foo.com"
   },
   {
@@ -96,7 +96,7 @@
     "supply": 500,
     "expiration": "04/17/2021",
     "reserves_supply": 0,
-    "reserves_expiration": null,
+    "reserves_expiration": "",
     "owner": "john@foo.com"
   },
   {
@@ -107,7 +107,7 @@
     "supply": 32,
     "expiration": "4/30/18",
     "reserves_supply": 0,
-    "reserves_expiration": null,
+    "reserves_expiration": "",
     "owner": "john@foo.com"
   },
   {
@@ -124,7 +124,7 @@
       "4/30/2018"
     ],
     "reserves_supply": 0,
-    "reserves_expiration": null,
+    "reserves_expiration": "",
     "owner": "john@foo.com"
   },
   {
@@ -138,7 +138,7 @@
       "8/17"
     ],
     "reserves_supply": 0,
-    "reserves_expiration": null,
+    "reserves_expiration": "",
     "owner": "john@foo.com"
   },
   {
@@ -155,7 +155,7 @@
       "9/16"
     ],
     "reserves_supply": 0,
-    "reserves_expiration": null,
+    "reserves_expiration": "",
     "owner": "john@foo.com"
   },
   {
@@ -166,7 +166,7 @@
     "supply": 86,
     "expiration": "4/1/16",
     "reserves_supply": 0,
-    "reserves_expiration": null,
+    "reserves_expiration": "",
     "owner": "john@foo.com"
   },
   {
@@ -177,7 +177,7 @@
     "supply": 0,
     "expiration": null,
     "reserves_supply": 0,
-    "reserves_expiration": null,
+    "reserves_expiration": "",
     "owner": "john@foo.com"
   },
   {
@@ -191,7 +191,7 @@
       "quantity": 2,
       "unit": "bottle"
     },
-    "reserves_expiration": null,
+    "reserves_expiration": "",
     "owner": "john@foo.com"
   }
 ]
