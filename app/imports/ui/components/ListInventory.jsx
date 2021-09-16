@@ -2,9 +2,12 @@ import React from 'react';
 import { Segment } from 'semantic-ui-react';
 import NavBar from '../components/NavBar';
 import Administer from './Administer';
+import LowInventory from './LowInventory';
 import AddInventory from './AddInventory';
 import EditMedications from './EditMedications';
 import EditSupplies from './EditSupplies';
+import DeleteMedications from './DeleteMedications';
+import DeleteSupplies from './DeleteSupplies';
 import SearchStandard from '../../api/inventory/SearchStandard';
 
 /** A simple static component to render some text for the landing page. */
@@ -398,6 +401,17 @@ class ListInventory extends React.Component {
     const medicationType = medicationSample.map(medication => ({ key: medication.type, value: medication.type,
       text: medication.type }));
 
+    const supplyNames = suppliesSample.map(supply => {
+      return {key: supply.name, value: supply.name, text: supply.name}
+    });
+
+    const lowInventoryItems = () => {
+      const items = [];
+      medicationSample.filter(medication => medication.amount <= 2).map(medication => items.push(medication))
+      suppliesSample.filter(supply => supply.amount <= 2).map(supply => items.push(supply))
+      return items;
+    }
+
     const filterTypes = [...new Set(medicationType.map(q => q.key))];
 
     const filteredTypeArray = filterTypes.map((str, index) => ({ key: str, value: str, text: str, id: index + 1 }));
@@ -407,11 +421,14 @@ class ListInventory extends React.Component {
           <NavBar />
           <Segment inverted basic textAlign='center' color='blue' padded='very'>
             <h1 className="fontsize-big h1-white">Inventory</h1>
+            {lowInventoryItems().length > 0 ? <LowInventory items={lowInventoryItems()}/> : <></>}
             <SearchStandard/>
-            <EditMedications medication={medicationNames} medType={medicationType}/>
+            <EditMedications medication={medicationNames} medType={filteredTypeArray}/>
             <EditSupplies/>
             <Administer medication={medicationNames}/>
             <AddInventory medType={filteredTypeArray}/>
+            <DeleteMedications medication={medicationNames} medType={filteredTypeArray}/>
+            <DeleteSupplies supply={supplyNames}/>
             {this.state.medicationTable ?
                 <div>
                   <div className="ui two top attached buttons">
