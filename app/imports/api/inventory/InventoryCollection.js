@@ -14,8 +14,14 @@ class InventoryCollection extends BaseCollection {
   constructor() {
     super('Inventorys', new SimpleSchema({
       name: String,
-      type: String,
-      location: String,
+      type : {
+        type: String,
+        allowedValues: ['Allergy & Cold Medicines', 'Analgesics/Anti-inflammatory', 'Anti-hypertensives',
+        'Anti-microbial', 'Cardiac/Cholesterol', 'Dermatological Preparations', 'Diabetes Meds', 'Ear and Eye Preparations',
+        'Emergency Kit', 'GI Meds', 'GYN Meds', 'Pulmonary', 'Smoking Cessation', 'Vitamins and Supplements'],
+        defaultValue: ' ',
+    },
+      location: String,  
       amount: Number,
       // supply: Array,
       // expiration: Array,
