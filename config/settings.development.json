@@ -9,5 +9,181 @@
     { "name": "Bicycle", "quantity": 2, "owner": "john@foo.com", "condition": "poor" },
     { "name": "Banana", "quantity": 2, "owner": "admin@foo.com", "condition": "good" },
     { "name": "Boogie Board", "quantity": 2, "owner": "admin@foo.com", "condition": "excellent" }
-  ]
+  ],
+
+  "medicationSample": [
+  {
+    "name": "Benzonatate Capsules",
+    "type": "Allergy & Cold Medicines",
+    "location": "Case 2",
+    "amount": 15,
+    "supply": [
+      19,
+      100
+    ],
+    "expiration": [
+      "10/16",
+      "3/17"
+    ],
+    "reserves_supply": 0,
+    "reserves_expiration": "03/17/2021",
+    "owner": "john@foo.com"
+  },
+  {
+    "name": "Cyclobenzaprine 10 mg",
+    "type": "Analgesics/Antiinflammatory",
+    "location": "Case 4",
+    "amount": 30,
+    "supply": 80,
+    "expiration": "03/17/2021",
+    "reserves_supply": 0,
+    "reserves_expiration": null,
+    "owner": "john@foo.com"
+  },
+  {
+    "name": "Gabapentin 300 mg ",
+    "type": "Analgesics/Antiinflammatory",
+    "location": "Case 4",
+    "amount": 30,
+    "supply": 112,
+    "expiration": [
+      "6/16",
+      "3/17"
+    ],
+    "reserves_supply": 0,
+    "reserves_expiration": null,
+    "owner": "john@foo.com"
+  },
+  {
+    "name": "Lidocaine w/o Epi, injectable",
+    "type": "Analgesics/Antiinflammatory",
+    "location": "Bottom Drawer",
+    "amount": [
+      1,
+      "bottle"
+    ],
+    "supply": 2,
+    "expiration": "10/16/2021",
+    "reserves_supply": 0,
+    "reserves_expiration": null,
+    "owner": "john@foo.com"
+  },
+  {
+    "name": "Prednisone 20 mg tabs",
+    "type": "Analgesics/Antiinflammatory",
+    "location": "Case 4",
+    "amount": 20,
+    "supply": 70,
+    "expiration": "3/1/17",
+    "reserves_supply": 0,
+    "reserves_expiration": null,
+    "owner": "john@foo.com"
+  },
+  {
+    "name": "Tramadol 50 mg Tabs",
+    "type": "Analgesics/Antiinflammatory",
+    "location": "Case 4",
+    "amount": 50,
+    "supply": 500,
+    "expiration": "04/17/2021",
+    "reserves_supply": 0,
+    "reserves_expiration": null,
+    "owner": "john@foo.com"
+  },
+  {
+    "name": "Amlodipine 5 mg ",
+    "type": "Antihypertensives",
+    "location": "Case 7",
+    "amount": 30,
+    "supply": 32,
+    "expiration": "4/30/18",
+    "reserves_supply": 0,
+    "reserves_expiration": null,
+    "owner": "john@foo.com"
+  },
+  {
+    "name": "Amlodipine 10 mg",
+    "type": "Antihypertensives",
+    "location": "Case 7",
+    "amount": 30,
+    "supply": [
+      57,
+      46
+    ],
+    "expiration": [
+      "4/16",
+      "4/30/2018"
+    ],
+    "reserves_supply": 0,
+    "reserves_expiration": null,
+    "owner": "john@foo.com"
+  },
+  {
+    "name": "Amlodipine 5mg/ Atorvastatin 20 mg",
+    "type": "Antihypertensives",
+    "location": "Case 7",
+    "amount": 0,
+    "supply": 84,
+    "expiration": [
+      "8/16",
+      "8/17"
+    ],
+    "reserves_supply": 0,
+    "reserves_expiration": null,
+    "owner": "john@foo.com"
+  },
+  {
+    "name": "Chlorthalidone or Hydrochlorothiazide 25 mg tabs",
+    "type": "Antihypertensives",
+    "location": "Case 7",
+    "amount": 50,
+    "supply": [
+      85,
+      134
+    ],
+    "expiration": [
+      "6/16",
+      "9/16"
+    ],
+    "reserves_supply": 0,
+    "reserves_expiration": null,
+    "owner": "john@foo.com"
+  },
+  {
+    "name": "Furosemide 20 mg ",
+    "type": "Antihypertensives",
+    "location": "Case 7",
+    "amount": 30,
+    "supply": 86,
+    "expiration": "4/1/16",
+    "reserves_supply": 0,
+    "reserves_expiration": null,
+    "owner": "john@foo.com"
+  },
+  {
+    "name": "Lisinopril 10 mg tab",
+    "type": "Antihypertensives",
+    "location": "Case 7",
+    "amount": 30,
+    "supply": 0,
+    "expiration": null,
+    "reserves_supply": 0,
+    "reserves_expiration": null,
+    "owner": "john@foo.com"
+  },
+  {
+    "name": "Azilsartan/chlorthalidone 40mg/25mg",
+    "type": "Antihypertensives",
+    "location": "Case 7",
+    "amount": 0,
+    "supply": 70,
+    "expiration": "7/1/16",
+    "reserves_supply": {
+      "quantity": 2,
+      "unit": "bottle"
+    },
+    "reserves_expiration": null,
+    "owner": "john@foo.com"
+  }
+]
 }
