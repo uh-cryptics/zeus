@@ -414,7 +414,7 @@ class ListInventory extends React.Component {
           <Segment inverted basic textAlign='center' color='blue' padded='very'>
             <h1 className="fontsize-big h1-white">Inventory</h1>
             <SearchStandard/>
-            <EditMedications medication={medicationNames} medType={medicationType}/>
+            <EditMedications medication={medicationNames} medType={filteredTypeArray}/>
             <EditSupplies/>
             <Administer medication={medicationNames}/>
             <AddInventory medType={filteredTypeArray}/>
