@@ -2,6 +2,7 @@ import React from 'react';
 import { Segment } from 'semantic-ui-react';
 import NavBar from '../components/NavBar';
 import Administer from './Administer';
+import LowInventory from './LowInventory';
 
 /** A simple static component to render some text for the landing page. */
 class ListInventory extends React.Component {
@@ -392,11 +393,21 @@ class ListInventory extends React.Component {
       return {key: medication.name, value: medication.name, text: medication.name}
     });
 
+    const lowInventoryItems = () => {
+      const items = [];
+      medicationSample.filter(medication => medication.amount <= 2).map(medication => items.push(medication))
+      suppliesSample.filter(supply => supply.amount <= 2).map(supply => items.push(supply))
+      return items;
+    }
+
+    console.log(lowInventoryItems());
+
     return (
         <div>
           <NavBar />
           <Segment inverted basic textAlign='center' color='blue' padded='very'>
             <h1 className="fontsize-big h1-white">Inventory</h1>
+            {lowInventoryItems().length > 0 ? <LowInventory items={lowInventoryItems()}/> : <></>}
             <Administer medication={medicationNames}/>
             {this.state.medicationTable ?
                 <div>
