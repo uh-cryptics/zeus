@@ -18,6 +18,8 @@ class AddInventory extends React.Component {
     }
 
     render() {
+      const purcDona = [{ key: 'p', value: 'p', text: 'Purchased' },
+        { key: 'd', value: 'd', text: 'Donated' }];
         return (
             <Modal
                 onClose={() => this.setOpen(false)}
@@ -57,6 +59,27 @@ class AddInventory extends React.Component {
                           <Form.Field required>
                             <label>Storage Location</label>
                             <Input placeholder="Enter storage location" name="location"/>
+                          </Form.Field>
+                        </Form.Group>
+                      </Form.Field>
+                      <Form.Field>
+                        <Form.Group widths="equal">
+                          <Form.Field required>
+                            <label>Expiration Date</label>
+                            <Input placeholder="Enter expiration date" name="exp-date"/>
+                          </Form.Field>
+                          <Form.Field required>
+                            <label>Storage Location</label>
+                            <Input placeholder="Enter storage location" name="location"/>
+                          </Form.Field>
+                        </Form.Group>
+                      </Form.Field>
+                      <Form.Field>
+                        <Form.Group widths="equal">
+                          <Form.Field required>
+                            <label>Purchased or Donated</label>
+                            <Select placeholder="Select an option" name="purc-dona"
+                                    options={purcDona}/>
                           </Form.Field>
                         </Form.Group>
                       </Form.Field>
